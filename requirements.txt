@@ -11,3 +11,8 @@ python-dotenv==1.0.0
 pytz==2024.1
 redis==5.2.1
 uvicorn==0.20.0
+telebot==0.0.5
+shortuuid==1.0.13
+psycopg2-binary==2.9.10
+environs==14.1.1
+whitenoise==6.9.0
