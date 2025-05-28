@@ -3,7 +3,7 @@ from aiogram.types import Update
 from django.utils.translation import activate
 from django.conf import settings
 from typing import Callable, Dict, Awaitable, Any, Optional
-from users.models import User
+from Admin.models import User
 
 
 class I18Middleware(BaseMiddleware):

@@ -1,17 +1,20 @@
+import redis
 from aiogram import Dispatcher, Bot
+from aiogram.client.default import DefaultBotProperties
 from aiogram.client.session.aiohttp import AiohttpSession
 from django.conf import settings
 
 from bot.helpers import get_webhook_url
 from bot.routers import router
+from bot.utils.middlewares import authentication, i18n
 from bot.utils.storage import DjangoRedisStorage
 
-from bot.utils.middlewares import authentication, i18n
+rd = redis.Redis(host='localhost', port=6379, db=2, decode_responses=True)
 
 dp = Dispatcher(storage=DjangoRedisStorage())
 bot_session = AiohttpSession()
 
-bot = Bot(settings.BOT_TOKEN, parse_mode='HTML', session=bot_session)
+bot = Bot(settings.BOT_TOKEN, session=bot_session, default=DefaultBotProperties(parse_mode='HTML'))
 
 dp.include_router(router)
 dp.update.outer_middleware.register(authentication.AuthenticationMiddleware())

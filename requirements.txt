@@ -1,8 +1,13 @@
-aiogram==3.0.0b7
-Django==4.1.7
+aiogram==3.20.0
+Django==4.2.20
+django-ckeditor==6.7.2
+django-jazzmin==3.0.0
+django-ordered-model==3.7.4
 django-phonenumber-field==7.0.2
 django-redis==5.2.0
-ipython==8.11.0
-python-dotenv==1.0.0
 phonenumbers==8.13.7
+pillow==11.1.0
+python-dotenv==1.0.0
+pytz==2024.1
+redis==5.2.1
 uvicorn==0.20.0

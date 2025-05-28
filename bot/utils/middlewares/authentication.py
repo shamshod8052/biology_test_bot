@@ -1,7 +1,7 @@
 from aiogram import BaseMiddleware
 from aiogram.types import Update
 from typing import Callable, Dict, Awaitable, Any
-from users.models import User
+from Admin.models import User
 
 
 class AuthenticationMiddleware(BaseMiddleware):
@@ -13,11 +13,16 @@ class AuthenticationMiddleware(BaseMiddleware):
         if bot_user is None:
             return await handler(event, data)
 
-        user, _ = await User.objects.aget_or_create(telegram_id=bot_user.id,
-                                                    defaults={
-                                                        'first_name': bot_user.first_name,
-                                                        'language': bot_user.language_code
-                                                    })
+        try:
+            user = await User.objects.aget(telegram_id=bot_user.id)
+        except User.DoesNotExist:
+            user = None
+        else:
+            user.first_name = bot_user.first_name
+            user.last_name = bot_user.last_name
+            user.username = bot_user.username
+            await user.asave()
+
         data['user'] = user
 
         return await handler(event, data)

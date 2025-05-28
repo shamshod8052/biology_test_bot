@@ -1,7 +1,9 @@
 venv
 env
 .idea
-cdn_local
+staticfiles
 .env
 __pycache__/
-db.sqlite3
+*/migrations/*
+!*/migrations/__init__.py
+media/*
