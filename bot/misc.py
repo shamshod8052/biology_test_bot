@@ -4,8 +4,9 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.client.session.aiohttp import AiohttpSession
 from django.conf import settings
 
+from bot.errors import router as error_router
 from bot.helpers import get_webhook_url
-from bot.routers import router
+from bot.routers import router as handler_router
 from bot.utils.middlewares import authentication, i18n
 from bot.utils.storage import DjangoRedisStorage
 
@@ -16,7 +17,8 @@ bot_session = AiohttpSession()
 
 bot = Bot(settings.BOT_TOKEN, session=bot_session, default=DefaultBotProperties(parse_mode='HTML'))
 
-dp.include_router(router)
+dp.include_router(handler_router)
+dp.include_router(error_router)
 dp.update.outer_middleware.register(authentication.AuthenticationMiddleware())
 dp.update.outer_middleware.register(i18n.I18Middleware())
 

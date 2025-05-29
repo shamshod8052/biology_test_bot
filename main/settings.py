@@ -186,7 +186,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Bot settings
 BOT_TOKEN = os.environ['BOT_TOKEN']
-ADMINS = os.environ['ADMINS']
+ADMINS = os.environ['ADMINS'].split(',')
 BOT_WEBHOOK_PATH = "bot-process-updates"
 
 LIFESPAN_CONTEXT = 'main.lifespan.lifespan_context'
