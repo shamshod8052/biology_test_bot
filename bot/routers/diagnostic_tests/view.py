@@ -1,6 +1,6 @@
 from aiogram import F, Router
 from aiogram.types import Message, CallbackQuery
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 
 from Attestation.models import DiagnosticTest as attestation_diagnostic
 from Certificate.models import DiagnosticTest
@@ -25,7 +25,7 @@ async def certificate_diagnostic_func(message: Message):
     queryset = DiagnosticTest.objects.filter(is_active=True).all()
     text = get_objects_text(queryset, 'name', rows_num=per_page)
     if not text:
-        await message.answer(_("No diagnostic tests found!"))
+        await message.answer(str(_("No diagnostic tests found!")))
         return
     keyboard = diag_tests(1, per_page=per_page)
 
