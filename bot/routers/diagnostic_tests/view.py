@@ -1,6 +1,6 @@
 from aiogram import F, Router
 from aiogram.types import Message, CallbackQuery
-from django.core.paginator import Paginator as DjangoPaginator
+from django.utils.translation import gettext as _
 
 from Attestation.models import DiagnosticTest as attestation_diagnostic
 from Certificate.models import DiagnosticTest
@@ -21,10 +21,13 @@ async def attestation_diagnostic_func(message: Message):
 
 @router.message(F.text.in_(get_translations("Diagnostic tests")), Keyboard.certificate)
 async def certificate_diagnostic_func(message: Message):
-    per_page = 2
+    per_page = 5
     queryset = DiagnosticTest.objects.filter(is_active=True).all()
     text = get_objects_text(queryset, 'name', rows_num=per_page)
-    keyboard = diag_tests(1, per_page=2)
+    if not text:
+        await message.answer(_("No diagnostic tests found!"))
+        return
+    keyboard = diag_tests(1, per_page=per_page)
 
     await message.answer(text, reply_markup=keyboard, parse_mode="HTML", disable_web_page_preview=True)
 
@@ -32,7 +35,7 @@ async def certificate_diagnostic_func(message: Message):
 @router.callback_query(F.data.startswith('page_diag_test:'))
 async def certificate_diagnostic_func(call: CallbackQuery):
     page_number = int(call.data.split(":")[1])
-    per_page = 2
+    per_page = 5
     queryset = DiagnosticTest.objects.filter(is_active=True).all()
     text = get_objects_text(queryset, 'name', per_page, page_number)
     keyboard = diag_tests(page_number, per_page)

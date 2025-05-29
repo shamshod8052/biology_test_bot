@@ -1,6 +1,7 @@
 from aiogram import F, Router, types
 from aiogram.fsm.context import FSMContext
 from aiogram.types import Message
+from django.utils.translation import gettext as _
 
 from Knowledge.models import BaseLesson, Status
 from bot.filters.multilang_utils import get_translations
@@ -26,6 +27,9 @@ async def video_lessons_func(message: Message, state: FSMContext):
     rows_num, column_num = 5, 1
     queryset = BaseLesson.objects.filter(status=status, is_active=True).all()
     text = get_objects_text(queryset, 'name', rows_num * column_num)
+    if not text:
+        await message.answer(_("No lessons found!"))
+        return
     await message.answer(
         text=text, reply_markup=video_lessons_kb(status, rows_num=rows_num, column_num=column_num)
     )
