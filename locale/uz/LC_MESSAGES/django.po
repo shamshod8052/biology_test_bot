@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-28 13:37+0500\n"
+"POT-Creation-Date: 2025-05-29 12:03+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -701,6 +701,10 @@ msgstr ""
 msgid "You haven't sent your answers yet!"
 msgstr ""
 
+#: .\bot\routers\diagnostic_tests\view.py:28
+msgid "No diagnostic tests found!"
+msgstr ""
+
 #: .\bot\routers\main_commands.py:17 .\bot\routers\main_commands.py:24
 #: .\bot\routers\main_commands.py:31
 msgid "Choose one of the tests and take the test!"
@@ -758,6 +762,10 @@ msgstr ""
 #: .\bot\routers\tests\view_tests_list.py:14
 #: .\bot\routers\tests\view_tests_list.py:25
 msgid "Choose one of the tests for the title..."
+msgstr ""
+
+#: .\bot\routers\video_lessons.py:31
+msgid "No lessons found!"
 msgstr ""
 
 #: .\helpers\time_string.py:11
