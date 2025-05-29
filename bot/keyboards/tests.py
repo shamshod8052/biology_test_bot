@@ -16,7 +16,7 @@ def test_titles_kb(page_num=1):
     ]
 
     back_obj = BackButton(str(_("Main menu")), "main_menu")
-    paginator = Paginator(rows_list, 2, back_obj, True, True)
+    paginator = Paginator(rows_list, 5, back_obj, True, True)
 
     return paginator.get_page(page_num, 'lr_title').as_markup()
 
@@ -30,7 +30,7 @@ def title_tests_kb(title_pk, page_num=1):
     ]
 
     back_obj = BackButton(str(_("Back")), "back2titles")
-    paginator = Paginator(rows_list, 2, back_obj, True, True)
+    paginator = Paginator(rows_list, 5, back_obj, True, True)
 
     return paginator.get_page(page_num, f"title:{title_pk}").as_markup()
 

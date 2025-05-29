@@ -23,7 +23,7 @@ async def video_lessons_func(message: Message, state: FSMContext):
     else:
         status = Status.NOTSET
     await state.update_data({'status': status})
-    rows_num, column_num = 2, 3
+    rows_num, column_num = 5, 1
     queryset = BaseLesson.objects.filter(status=status, is_active=True).all()
     text = get_objects_text(queryset, 'name', rows_num * column_num)
     await message.answer(
@@ -35,7 +35,7 @@ async def lesson_page(call: types.CallbackQuery, state: FSMContext):
     data = await state.get_data()
     status = data.get('status')
     page_num = int(call.data.split(":")[1])
-    rows_num, column_num = 2, 3
+    rows_num, column_num = 5, 1
     queryset = BaseLesson.objects.filter(status=status, is_active=True).all()
     text = get_objects_text(queryset, 'name', rows_num * column_num, page_num)
     await call.message.edit_text(
