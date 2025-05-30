@@ -65,3 +65,20 @@ class User(AbstractBaseUser, PermissionsMixin):
     def get_short_name(self):
         """Return the short name for the user."""
         return self.first_name
+
+class Channel(models.Model):
+    name = models.CharField(verbose_name=_("Name"), max_length=100)
+    chat_id = models.CharField(verbose_name=_("Chat id"), max_length=50, unique=True)
+    url = models.URLField(verbose_name=_("Url"), max_length=255)
+    is_required = models.BooleanField(verbose_name=_("Is required"), default=True)
+    is_active = models.BooleanField(verbose_name=_("Is active"), default=True)
+
+    def get_chat_id(self):
+        return int(self.chat_id)
+
+    def __str__(self):
+        return f"{self.name}"
+
+    class Meta:
+        verbose_name = _("Channel")
+        verbose_name_plural = _("Channels")

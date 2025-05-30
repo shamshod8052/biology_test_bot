@@ -312,6 +312,7 @@ JAZZMIN_SETTINGS = {
 
         "Admin",
         "User",
+        "Channel",
 
         "Test",
         "Test.Title",
@@ -362,6 +363,7 @@ JAZZMIN_SETTINGS = {
 
         "Admin": "fas fa-user-shield",
         "Admin.User": "fas fa-user",
+        "Admin.Channel": "fas fa-link",
 
         "Attestation": "fas fa-file-alt",
         "Attestation.Channel": "fas fa-paper-plane",
