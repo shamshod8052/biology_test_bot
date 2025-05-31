@@ -10,7 +10,7 @@ from Test.models import Participant, Quest, Task
 async def statistics_sender(task: Task, bot: Bot) -> None:
     participant: Participant = task.participants.first()
     if not participant:
-        summary = str(_("Mavjud emas!"))
+        summary = str(_("Not available!"))
     else:
         all_quests = task.quests.count()
         answered_quests = task.quests.filter(status=Quest.Status.ANSWERED).count()

@@ -20,390 +20,385 @@ msgstr ""
 
 #: .\Admin\admin.py:12
 msgid "Personal info"
-msgstr ""
+msgstr "Shaxsiy ma'lumotlar"
 
 #: .\Admin\admin.py:14
 msgid "Permissions"
-msgstr ""
+msgstr "Ruxsatlar"
 
 #: .\Admin\admin.py:26
 msgid "Important dates"
-msgstr ""
+msgstr "Muhim sanalar"
 
 #: .\Admin\models.py:14
 msgid "✅ Active"
-msgstr ""
+msgstr "✅ Faol"
 
 #: .\Admin\models.py:15
 msgid "🚫 Blocked the bot"
-msgstr ""
+msgstr "🚫 Botni bloklagan"
 
 #: .\Admin\models.py:16
 msgid "🔴 Telegram Not Found"
-msgstr ""
+msgstr "🔴 Telegram topilmadi"
 
 #: .\Admin\models.py:17
 msgid "⛔️ Blocked"
-msgstr ""
+msgstr "⛔️ Bloklangan"
 
 #: .\Admin\models.py:18
 msgid "❗️ Failed"
-msgstr ""
+msgstr "❗️ Muvaffaqiyatsiz"
 
 #: .\Admin\models.py:20
 msgid "Phone"
-msgstr ""
+msgstr "Telefon"
 
 #: .\Admin\models.py:21
 msgid "Password"
-msgstr ""
+msgstr "Parol"
 
 #: .\Admin\models.py:22
 msgid "First name"
-msgstr ""
+msgstr "Ism"
 
 #: .\Admin\models.py:23
 msgid "Last name"
-msgstr ""
+msgstr "Familiya"
 
 #: .\Admin\models.py:24 .\Test\models.py:358
 msgid "Username"
-msgstr ""
+msgstr "Foydalanuvchi nomi"
 
 #: .\Admin\models.py:29
 msgid "staff status"
-msgstr ""
+msgstr "xodim maqomi"
 
 #: .\Admin\models.py:31
 msgid "Designates whether the user can log into this admin site."
-msgstr ""
+msgstr "Foydalanuvchi admin sahifasiga kira olishini belgilaydi."
 
 #: .\Admin\models.py:34
 msgid "active"
-msgstr ""
+msgstr "faol"
 
 #: .\Admin\models.py:37
 msgid ""
 "Designates whether this user should be treated as active. Unselect this "
 "instead of deleting accounts."
-msgstr ""
+msgstr "Foydalanuvchi faol sifatida qabul qilinishini belgilaydi. Hisobni o‘chirish o‘rniga bu belgini olib tashlang."
 
 #: .\Admin\models.py:41
 msgid "date joined"
-msgstr ""
+msgstr "ro‘yxatdan o‘tgan sana"
 
 #: .\Admin\models.py:49 .\Knowledge\models.py:237
 msgid "User"
-msgstr ""
+msgstr "Foydalanuvchi"
 
 #: .\Admin\models.py:50
 msgid "Users"
-msgstr ""
+msgstr "Foydalanuvchilar"
 
 #: .\Attestation\models.py:16
 msgid "The test is not available!"
-msgstr ""
+msgstr "Test mavjud emas!"
 
 #: .\Attestation\models.py:22
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2373
 msgid "Text"
-msgstr ""
+msgstr "Matn"
 
 #: .\Attestation\models.py:23 .\Knowledge\models.py:346
 #: .\Knowledge\models.py:386 .\Knowledge\models.py:401 .\Test\models.py:29
 msgid "Is active"
-msgstr ""
+msgstr "Faolmi"
 
 #: .\Attestation\models.py:30 .\Certificate\models.py:25
 #: .\Knowledge\models.py:201 .\Knowledge\models.py:210
 #: .\Knowledge\models.py:238
 msgid "Diagnostic test"
-msgstr ""
+msgstr "Diagnostik test"
 
 #: .\Attestation\models.py:31 .\Certificate\models.py:26
 #: .\Knowledge\models.py:202 .\bot\keyboards\main_menus.py:27
 #: .\bot\keyboards\main_menus.py:47
 msgid "Diagnostic tests"
-msgstr ""
+msgstr "Diagnostik testlar"
 
 #: .\Attestation\models.py:47 .\Certificate\models.py:57
 #: .\Knowledge\models.py:354
 msgid "Course"
-msgstr ""
+msgstr "Kurs"
 
 #: .\Attestation\models.py:48 .\Certificate\models.py:58
 #: .\Knowledge\models.py:355
 msgid "Courses"
-msgstr ""
+msgstr "Kurslar"
 
 #: .\Attestation\models.py:66 .\Certificate\models.py:76
 #: .\Knowledge\models.py:392
 msgid "Channel"
-msgstr ""
+msgstr "Kanal"
 
 #: .\Attestation\models.py:67 .\Certificate\models.py:77
 #: .\Knowledge\models.py:393
 msgid "Channels"
-msgstr ""
+msgstr "Kanallar"
 
 #: .\Attestation\models.py:78 .\Certificate\models.py:88
 msgid "Test analyse video"
-msgstr ""
+msgstr "Test tahlil videosi"
 
 #: .\Attestation\models.py:79 .\Certificate\models.py:89
 msgid "Test analyse videos"
-msgstr ""
+msgstr "Test tahlil videolari"
 
 #: .\Certificate\models.py:32 .\Knowledge\models.py:223
 msgid "Answer"
-msgstr ""
+msgstr "Javob"
 
 #: .\Certificate\models.py:33 .\Knowledge\admin.py:91 .\Knowledge\models.py:224
 msgid "Answers"
-msgstr ""
+msgstr "Javoblar"
 
 #: .\Certificate\models.py:39 .\Knowledge\models.py:332
 msgid "User answer"
-msgstr ""
+msgstr "Foydalanuvchi javobi"
 
 #: .\Certificate\models.py:40 .\Knowledge\models.py:333
 msgid "User answers"
-msgstr ""
+msgstr "Foydalanuvchi javoblari"
 
 #: .\Knowledge\admin.py:45 .\Knowledge\admin.py:112
 msgid "Result"
-msgstr ""
+msgstr "Natija"
 
 #: .\Knowledge\admin.py:66
 msgid "View answers"
-msgstr ""
+msgstr "Javoblarni ko‘rish"
 
 #: .\Knowledge\admin.py:104
 msgid "Answers Text"
-msgstr ""
+msgstr "Javoblar matni"
 
 #: .\Knowledge\admin.py:136
 msgid "About"
-msgstr ""
+msgstr "Haqida"
 
 #: .\Knowledge\models.py:17 .\Test\models.py:379
 msgid "Not set"
-msgstr ""
+msgstr "Belgilanmagan"
 
 #: .\Knowledge\models.py:18 .\bot\keyboards\main_menus.py:14
 msgid "Attestation"
-msgstr ""
+msgstr "Attestatsiya"
 
 #: .\Knowledge\models.py:19 .\bot\keyboards\main_menus.py:15
 msgid "Certificate"
-msgstr ""
+msgstr "Sertifikat"
 
 #: .\Knowledge\models.py:24
 msgid "Overall result"
-msgstr ""
+msgstr "Umumiy natija"
 
 #: .\Knowledge\models.py:25
 msgid "Correct answers number"
-msgstr ""
+msgstr "To‘g‘ri javoblar soni"
 
 #: .\Knowledge\models.py:26
 msgid "Only selected answers"
-msgstr ""
+msgstr "Faqat tanlangan javoblar"
 
 #: .\Knowledge\models.py:28
 msgid "Name"
-msgstr ""
+msgstr "Nomi"
 
 #: .\Knowledge\models.py:29
-#: .\venv\Lib\site-packages\django\db\models\fields\files.py:232
 msgid "File"
-msgstr ""
+msgstr "Fayl"
 
 #: .\Knowledge\models.py:30
 msgid "Telegram File ID"
-msgstr ""
+msgstr "Telegram fayl ID raqami"
 
 #: .\Knowledge\models.py:31 .\Knowledge\models.py:399
 msgid "Saved File Path"
-msgstr ""
+msgstr "Saqlangan fayl manzili"
 
-#: .\Knowledge\models.py:33 .\Knowledge\models.py:402 .\Test\models.py:28
-#: .\Test\models.py:88
+#: .\Knowledge\models.py:33 .\Knowledge\models.py:402 .\Test\models.py:28 .\Test\models.py:88
 msgid "Description"
-msgstr ""
+msgstr "Tavsif"
 
 #: .\Knowledge\models.py:34
 msgid "This text will contain information about the test."
-msgstr ""
+msgstr "Bu matnda test haqidagi ma’lumotlar bo‘ladi."
 
 #: .\Knowledge\models.py:37
 msgid "Select the result display mode?"
-msgstr ""
+msgstr "Natijani ko‘rsatish usulini tanlang?"
 
 #: .\Knowledge\models.py:40 .\Test\models.py:265
 msgid "Started at"
-msgstr ""
+msgstr "Boshlangan vaqti"
 
 #: .\Knowledge\models.py:41
 msgid "Ends at"
-msgstr ""
+msgstr "Tugash vaqti"
 
 #: .\Knowledge\models.py:43 .\Test\models.py:87
 msgid "Active"
-msgstr ""
+msgstr "Faol"
 
-#: .\Knowledge\models.py:44 .\Knowledge\models.py:348 .\Knowledge\models.py:385
-#: .\Knowledge\models.py:404 .\Test\models.py:385
+#: .\Knowledge\models.py:44 .\Knowledge\models.py:348 .\Knowledge\models.py:385 .\Knowledge\models.py:404 .\Test\models.py:385
 msgid "Status"
-msgstr ""
+msgstr "Holati"
 
-#: .\Knowledge\models.py:45 .\Knowledge\models.py:405 .\Test\models.py:90
-#: .\Test\models.py:268 .\Test\models.py:365
+#: .\Knowledge\models.py:45 .\Knowledge\models.py:405 .\Test\models.py:90 .\Test\models.py:268 .\Test\models.py:365
 msgid "Created at"
-msgstr ""
+msgstr "Yaratilgan vaqti"
 
-#: .\Knowledge\models.py:46 .\Knowledge\models.py:406 .\Test\models.py:91
-#: .\Test\models.py:269 .\Test\models.py:366
+#: .\Knowledge\models.py:46 .\Knowledge\models.py:406 .\Test\models.py:91 .\Test\models.py:269 .\Test\models.py:366
 msgid "Updated at"
-msgstr ""
+msgstr "Yangilangan vaqti"
 
 #: .\Knowledge\models.py:51
 msgid "Started at: "
-msgstr ""
+msgstr "Boshlangan vaqti: "
 
 #: .\Knowledge\models.py:53
 msgid "Ends at: "
-msgstr ""
+msgstr "Tugash vaqti: "
 
 #: .\Knowledge\models.py:172
 msgid "Not enough answers!"
-msgstr ""
+msgstr "Javoblar yetarli emas!"
 
 #: .\Knowledge\models.py:208
 msgid "Open"
-msgstr ""
+msgstr "Ochiq"
 
 #: .\Knowledge\models.py:209
 msgid "Close"
-msgstr ""
+msgstr "Yopiq"
 
 #: .\Knowledge\models.py:211
 msgid "Type"
-msgstr ""
+msgstr "Turi"
 
 #: .\Knowledge\models.py:212
 msgid "Value"
-msgstr ""
+msgstr "Qiymat"
 
 #: .\Knowledge\models.py:239
 msgid "Answers text"
-msgstr ""
+msgstr "Javoblar matni"
 
 #: .\Knowledge\models.py:290 .\Knowledge\models.py:305
 msgid "Your result:"
-msgstr ""
+msgstr "Sizning natijangiz:"
 
 #: .\Knowledge\models.py:292 .\Knowledge\models.py:307
 #: .\Knowledge\models.py:318
 msgid "Your answers:"
-msgstr ""
+msgstr "Sizning javoblaringiz:"
 
 #: .\Knowledge\models.py:324 .\bot\routers\diagnostic_tests\actions.py:90
 #: .\bot\routers\diagnostic_tests\actions.py:107
 msgid "Not found!"
-msgstr ""
+msgstr "Topilmadi!"
 
 #: .\Knowledge\models.py:340
 msgid "Course information is not available!"
-msgstr ""
+msgstr "Kurs haqida ma'lumot mavjud emas!"
 
 #: .\Knowledge\models.py:345
 msgid "About the course"
-msgstr ""
+msgstr "Kurs haqida"
 
 #: .\Knowledge\models.py:378
 msgid "Channel name"
-msgstr ""
+msgstr "Kanal nomi"
 
 #: .\Knowledge\models.py:380
 msgid "Channel username"
-msgstr ""
+msgstr "Kanal foydalanuvchi nomi"
 
 #: .\Knowledge\models.py:382
 msgid "Example: https://t.me/username"
-msgstr ""
+msgstr "Misol: https://t.me/username"
 
 #: .\Knowledge\models.py:396
 msgid "Lesson name"
-msgstr ""
+msgstr "Dars nomi"
 
 #: .\Knowledge\models.py:397
 msgid "Video file"
-msgstr ""
+msgstr "Video fayl"
 
 #: .\Knowledge\models.py:398
 msgid "File ID"
-msgstr ""
+msgstr "Fayl ID"
 
 #: .\Knowledge\models.py:400 .\Test\models.py:85
 msgid "Protect content"
-msgstr ""
+msgstr "Kontentni himoya qilish"
 
 #: .\Knowledge\models.py:435
 msgid "Video lesson"
-msgstr ""
+msgstr "Video dars"
 
 #: .\Knowledge\models.py:436 .\bot\keyboards\main_menus.py:11
 msgid "Video lessons"
-msgstr ""
+msgstr "Video darslar"
 
 #: .\Test\models.py:27
 msgid "Title name"
-msgstr ""
+msgstr "Sarlavha nomi"
 
 #: .\Test\models.py:37
 msgid "Title"
-msgstr ""
+msgstr "Sarlavha"
 
 #: .\Test\models.py:38
 msgid "Titles"
-msgstr ""
+msgstr "Sarlavhalar"
 
 #: .\Test\models.py:65
 msgid "Quiz"
-msgstr ""
+msgstr "Test"
 
 #: .\Test\models.py:66
 msgid "Inline"
-msgstr ""
+msgstr "Inline (ichki)"
 
 #: .\Test\models.py:71
 msgid "Question type"
-msgstr ""
+msgstr "Savol turi"
 
 #: .\Test\models.py:77
 msgid "Test title"
-msgstr ""
+msgstr "Test sarlavhasi"
 
 #: .\Test\models.py:79
 msgid "Test name"
-msgstr ""
+msgstr "Test nomi"
 
 #: .\Test\models.py:82 .\Test\models.py:149
 msgid "Time limit (sec)"
-msgstr ""
+msgstr "Vaqt chegarasi (soniya)"
 
 #: .\Test\models.py:82
 msgid "Seconds to answer every quiz"
-msgstr ""
+msgstr "Har bir testga javob berish uchun sekundlar"
 
 #: .\Test\models.py:84
 msgid "Shuffle questions"
-msgstr ""
+msgstr "Savollarni aralashtirish"
 
 #: .\Test\models.py:86
 msgid "Show true answer"
-msgstr ""
+msgstr "To‘g‘ri javobni ko‘rsatish"
 
 #: .\Test\models.py:100
 #, python-brace-format
@@ -414,156 +409,161 @@ msgid ""
 "💬 {test_type}\n"
 "{wait_time_text}🏁 When you're ready, click the button below."
 msgstr ""
+"♻️ {topic}\n"
+"\n"
+"🖊 {quest_num} ta savol\n"
+"💬 {test_type}\n"
+"{wait_time_text}🏁 Tayyor bo‘lgach, quyidagi tugmani bosing."
 
 #: .\Test\models.py:115 .\Test\models.py:144
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: .\Test\models.py:116 .\bot\keyboards\main_menus.py:10
 msgid "Tests"
-msgstr ""
+msgstr "Testlar"
 
 #: .\Test\models.py:146
 msgid "Question text"
-msgstr ""
+msgstr "Savol matni"
 
 #: .\Test\models.py:149
 msgid "Seconds to answer quiz"
-msgstr ""
+msgstr "Testga javob berish uchun sekundlar"
 
 #: .\Test\models.py:151
 msgid "Shuffle answers"
-msgstr ""
+msgstr "Javoblarni aralashtirish"
 
 #: .\Test\models.py:152
 msgid "Explanation"
-msgstr ""
+msgstr "Tushuntirish"
 
 #: .\Test\models.py:157 .\Test\models.py:183 .\Test\models.py:216
 #: .\Test\models.py:384
 msgid "Question"
-msgstr ""
+msgstr "Savol"
 
 #: .\Test\models.py:158
 msgid "Questions"
-msgstr ""
+msgstr "Savollar"
 
 #: .\Test\models.py:166
 msgid "Time limit required for quiz questions."
-msgstr ""
+msgstr "Test savollariga ajratilgan vaqt chegarasi."
 
 #: .\Test\models.py:184
 #: .\venv\Lib\site-packages\django\db\models\fields\files.py:393
 msgid "Image"
-msgstr ""
+msgstr "Rasm"
 
 #: .\Test\models.py:185
 msgid "Telegram file ID"
-msgstr ""
+msgstr "Telegram fayl ID"
 
 #: .\Test\models.py:200
 msgid "Photo"
-msgstr ""
+msgstr "Foto"
 
 #: .\Test\models.py:201
 msgid "Photos"
-msgstr ""
+msgstr "Fotolar"
 
 #: .\Test\models.py:217
 msgid "Option text"
-msgstr ""
+msgstr "Javob matni"
 
 #: .\Test\models.py:218
 msgid "Is correct option"
-msgstr ""
+msgstr "To‘g‘ri javob"
 
 #: .\Test\models.py:218
 msgid "Only one correct for quizzes"
-msgstr ""
+msgstr "Testlar uchun faqat bitta to‘g‘ri javob bo‘lishi mumkin"
 
 #: .\Test\models.py:233
 msgid "Option"
-msgstr ""
+msgstr "Javob"
 
 #: .\Test\models.py:234 .\venv\Lib\site-packages\click\core.py:1396
 msgid "Options"
-msgstr ""
+msgstr "Javoblar"
 
 #: .\Test\models.py:262
 msgid "User chat"
-msgstr ""
+msgstr "Foydalanuvchi chat"
 
 #: .\Test\models.py:263
 msgid "Language"
-msgstr ""
+msgstr "Til"
 
 #: .\Test\models.py:264
 msgid "Started"
-msgstr ""
+msgstr "Boshlangan"
 
 #: .\Test\models.py:266
 msgid "Poll ID"
-msgstr ""
+msgstr "So‘rovnoma ID"
 
 #: .\Test\models.py:314
 msgid "No remaining questions"
-msgstr ""
+msgstr "Savollar qolmadi"
 
 #: .\Test\models.py:340 .\Test\models.py:356 .\Test\models.py:383
 msgid "Task"
-msgstr ""
+msgstr "Vazifa"
 
 #: .\Test\models.py:341
 msgid "Tasks"
-msgstr ""
+msgstr "Vazifalar"
 
 #: .\Test\models.py:357
 msgid "Full name"
-msgstr ""
+msgstr "To‘liq ism"
 
 #: .\Test\models.py:361
 msgid "Correct"
-msgstr ""
+msgstr "To‘g‘ri"
 
 #: .\Test\models.py:362
 msgid "Incorrect"
-msgstr ""
+msgstr "Noto‘g‘ri"
 
 #: .\Test\models.py:363
 msgid "Time spent(s)"
-msgstr ""
+msgstr "Sarflangan vaqt (soniya)"
 
 #: .\Test\models.py:373
 msgid "Participant"
-msgstr ""
+msgstr "Ishtirokchi"
 
 #: .\Test\models.py:374
 msgid "Participants"
-msgstr ""
+msgstr "Ishtirokchilar"
 
 #: .\Test\models.py:380
 msgid "Pending"
-msgstr ""
+msgstr "Kutmoqda"
 
 #: .\Test\models.py:381
 msgid "Answered"
-msgstr ""
+msgstr "Javob berildi"
 
 #: .\Test\models.py:386
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 #: .\Test\models.py:400
 msgid "Quest"
-msgstr ""
+msgstr "Savol"
 
 #: .\Test\models.py:401
 msgid "Quests"
-msgstr ""
+msgstr "Savollar"
 
 #: .\bot\functions\send_statistics.py:13
-msgid "Mavjud emas!"
-msgstr ""
+msgid "Not available!"
+msgstr "Mavjud emas!"
 
 #: .\bot\functions\send_statistics.py:18
 #, python-brace-format
@@ -578,6 +578,15 @@ msgid ""
 "⌛️ Skipp: {skipp}\n"
 "⏱️ {time}"
 msgstr ""
+"🏁 \"{topic}\" testi yakunlandi.\n"
+"\n"
+"♻️ Barcha savollar: {all_quests}\n"
+"🟢 Javob berilgan: {answered_quests}\n"
+"\n"
+"✅ To‘g‘ri: {correct}\n"
+"❌ Noto‘g‘ri: {incorrect}\n"
+"⌛️ O‘tkazib yuborilgan: {skipp}\n"
+"⏱️ {time}"
 
 #: .\bot\functions\send_statistics.py:41
 #, python-brace-format
@@ -586,95 +595,98 @@ msgid ""
 "\n"
 "⏳ Restart!"
 msgstr ""
+"{topic}\n"
+"\n"
+"⏳ Qayta boshlash!"
 
 #: .\bot\functions\send_test.py:29
 msgid "Select!"
-msgstr ""
+msgstr "Tanlang!"
 
 #: .\bot\functions\send_test.py:108
 msgid "Test pauzed!"
-msgstr ""
+msgstr "Test to‘xtatildi!"
 
 #: .\bot\keyboards\diagnostic_tests.py:28 .\bot\keyboards\tests.py:41
 msgid "Begin"
-msgstr ""
+msgstr "Boshlash"
 
 #: .\bot\keyboards\diagnostic_tests.py:34
 msgid "Get questions file"
-msgstr ""
+msgstr "Savollar faylini olish"
 
 #: .\bot\keyboards\diagnostic_tests.py:41
 msgid "Check answers"
-msgstr ""
+msgstr "Javoblarni tekshirish"
 
 #: .\bot\keyboards\diagnostic_tests.py:47
 msgid "View my answers"
-msgstr ""
+msgstr "Mening javoblarimni ko‘rish"
 
 #: .\bot\keyboards\keyboard_paginator.py:9
 msgid "🔙 Back"
-msgstr ""
+msgstr "🔙 Orqaga"
 
 #: .\bot\keyboards\main_menus.py:28 .\bot\keyboards\main_menus.py:48
 msgid "Test analyses"
-msgstr ""
+msgstr "Test tahlillari"
 
 #: .\bot\keyboards\main_menus.py:31
 msgid "Attestation courses"
-msgstr ""
+msgstr "Attestatsiya kurslari"
 
 #: .\bot\keyboards\main_menus.py:32 .\bot\keyboards\main_menus.py:52
 msgid "Subscribe"
-msgstr ""
+msgstr "Obuna bo‘lish"
 
 #: .\bot\keyboards\main_menus.py:35 .\bot\keyboards\main_menus.py:55
 #: .\bot\keyboards\tests.py:18 .\bot\keyboards\video_lessons.py:19
 #: .\bot\routers\set_main_menu.py:26 .\bot\routers\set_main_menu.py:32
 msgid "Main menu"
-msgstr ""
+msgstr "Asosiy menyu"
 
 #: .\bot\keyboards\main_menus.py:51
 msgid "Certificate courses"
-msgstr ""
+msgstr "Sertifikatli kurslar"
 
 #: .\bot\keyboards\tests.py:32
 msgid "Back"
-msgstr ""
+msgstr "Orqaga"
 
 #: .\bot\keyboards\tests.py:52
 msgid "Restart"
-msgstr ""
+msgstr "Qayta boshlash"
 
 #: .\bot\keyboards\tests.py:100
 msgid "Resume quiz"
-msgstr ""
+msgstr "Testni davom ettirish"
 
 #: .\bot\keyboards\tests.py:103
 msgid "Stop quiz"
-msgstr ""
+msgstr "Testni to‘xtatish"
 
 #: .\bot\routers\diagnostic_tests\actions.py:21
 #: .\bot\routers\diagnostic_tests\actions.py:46
 #: .\bot\routers\diagnostic_tests\actions.py:56
 #: .\bot\routers\diagnostic_tests\actions.py:101
 msgid "This test is not active!"
-msgstr ""
+msgstr "Bu test faol emas!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:24
 msgid "Please wait for the test start time!"
-msgstr ""
+msgstr "Iltimos, test boshlanish vaqtini kuting!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:27
 msgid "The testing process has begun!"
-msgstr ""
+msgstr "Test jarayoni boshlandi!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:59
 msgid "You have already answered!"
-msgstr ""
+msgstr "Siz allaqachon javob berdingiz!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:61
 msgid "The time to submit answers is over!"
-msgstr ""
+msgstr "Javoblarni topshirish vaqti tugadi!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:66
 msgid ""
@@ -688,64 +700,72 @@ msgid ""
 "That is, first the closed test answers in one row, then the closed test "
 "answers in separate rows!"
 msgstr ""
+"Javoblaringizni quyidagi misolga o‘xshab kiriting:\n"
+"\n"
+"abdcad...\n"
+"45\n"
+"school\n"
+"23.4\n"
+"\n"
+"Ya’ni, avval yopiq test javoblari bir qatorda, keyin yopiq test javoblari alohida qatorda bo‘lishi kerak!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:84
 msgid "Invalid answers! Try again..."
-msgstr ""
+msgstr "Noto‘g‘ri javoblar! Qaytadan urinib ko‘ring..."
 
 #: .\bot\routers\diagnostic_tests\actions.py:87
 msgid "Your answers have been accepted!"
-msgstr ""
+msgstr "Javoblaringiz qabul qilindi!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:103
 msgid "You haven't sent your answers yet!"
-msgstr ""
+msgstr "Siz javoblaringizni hali yubormadingiz!"
 
 #: .\bot\routers\diagnostic_tests\view.py:28
 msgid "No diagnostic tests found!"
-msgstr ""
+msgstr "Hech qanday diagnostika testi topilmadi!"
 
 #: .\bot\routers\main_commands.py:17 .\bot\routers\main_commands.py:24
 #: .\bot\routers\main_commands.py:31
 msgid "Choose one of the tests and take the test!"
-msgstr ""
+msgstr "Testlardan birini tanlab, testni boshlang!"
 
 #: .\bot\routers\main_commands.py:37 .\bot\routers\main_commands.py:42
 msgid "Choose one of the menus!"
-msgstr ""
+msgstr "Menyulardan birini tanlang!"
 
 #: .\bot\routers\set_main_menu.py:17
 #, python-brace-format
 msgid "Salom, {first_name}"
-msgstr ""
+msgstr "Salom, {first_name}"
 
 #: .\bot\routers\subscribe\view.py:15 .\bot\routers\subscribe\view.py:28
 msgid "Channels list for subscribe"
-msgstr ""
+msgstr "Obuna bo‘lish uchun kanallar ro‘yxati"
 
 #: .\bot\routers\subscribe\view.py:19 .\bot\routers\subscribe\view.py:32
 msgid "Channels list not found!"
-msgstr ""
+msgstr "Kanal ro‘yxati topilmadi!"
 
 #: .\bot\routers\tests\begin_test.py:18
 msgid "Stop"
-msgstr ""
+msgstr "To‘xtatish"
 
 #: .\bot\routers\tests\begin_test.py:19
 msgid "Next"
-msgstr ""
+msgstr "Keyingi"
 
 #: .\bot\routers\tests\begin_test.py:32
 msgid "Are you ready?"
-msgstr ""
+msgstr "Tayormisiz?"
 
 #: .\bot\routers\tests\begin_test.py:34
 msgid "Let's go!"
-msgstr ""
+msgstr "Boshlaymiz!"
 
 #: .\bot\routers\tests\begin_test.py:37
 msgid "Test started!"
-msgstr ""
+msgstr "Test boshlandi!"
 
 #: .\bot\routers\tests\begin_test.py:54
 msgid ""
@@ -753,583 +773,572 @@ msgid ""
 "\n"
 "Stop it with the /stop command."
 msgstr ""
+"Test allaqachon boshlandi.\n"
+"\n"
+"/stop buyrug‘i bilan to‘xtating."
 
 #: .\bot\routers\tests\next_test.py:23 .\bot\routers\tests\next_test.py:37
 #: .\bot\routers\tests\stop_test.py:25 .\bot\routers\tests\stop_test.py:38
 msgid "Test not set"
-msgstr ""
+msgstr "Test belgilanmagan"
 
 #: .\bot\routers\tests\view_tests_list.py:14
 #: .\bot\routers\tests\view_tests_list.py:25
 msgid "Choose one of the tests for the title..."
-msgstr ""
+msgstr "Sarlavha uchun testlardan birini tanlang..."
 
 #: .\bot\routers\video_lessons.py:31
 msgid "No lessons found!"
-msgstr ""
+msgstr "Darslik topilmadi!"
 
 #: .\helpers\time_string.py:11
 msgid "hour"
-msgstr ""
+msgstr "soat"
 
 #: .\helpers\time_string.py:11
 msgid "hours"
-msgstr ""
+msgstr "soatlar"
 
 #: .\helpers\time_string.py:13
 msgid "minute"
-msgstr ""
+msgstr "daqiqa"
 
 #: .\helpers\time_string.py:13
 msgid "minutes"
-msgstr ""
+msgstr "daqiqalar"
 
 #: .\helpers\time_string.py:15
 msgid "second"
-msgstr ""
+msgstr "soniya"
 
 #: .\helpers\time_string.py:15
 msgid "seconds"
-msgstr ""
+msgstr "soniyalar"
 
 #: .\main\settings.py:162
 msgid "Uzbek"
-msgstr ""
+msgstr "O‘zbekcha"
 
 #: .\main\settings.py:163
 msgid "English"
-msgstr ""
+msgstr "Inglizcha"
 
 #: .\main\settings.py:164
 msgid "Russian"
-msgstr ""
+msgstr "Ruscha"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\forms.py:6
 msgid "Search files"
-msgstr ""
+msgstr "Fayllarni qidirish"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:5
 msgid "Select an image to embed"
-msgstr ""
+msgstr "Qo‘shish uchun rasmni tanlang"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:27
 msgid "Browse for the image you want, then click 'Embed Image' to continue..."
-msgstr ""
+msgstr "Kerakli rasmni tanlang, so‘ng 'Rasm qo‘shish' tugmasini bosing..."
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:29
 msgid ""
 "No images found. Upload images using the 'Image Button' dialog's 'Upload' "
 "tab."
 msgstr ""
+"Rasm topilmadi. Rasm qo‘shish uchun 'Rasm tugmasi' oynasidagi 'Yuklash' "
+"bo‘limidan foydalaning."
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:50
 msgid "Images in: "
-msgstr ""
+msgstr "Rasmlar joylashgan joy: "
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:62
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:80
 msgid "Embed Image"
-msgstr ""
+msgstr "Rasm qo‘shish"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:146
 msgid "Play Slideshow"
-msgstr ""
+msgstr "Slayd-shou boshlash"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:147
 msgid "Pause Slideshow"
-msgstr ""
+msgstr "Slayd-shou to‘xtatish"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:148
 msgid "&lsaquo; Previous Photo"
-msgstr ""
+msgstr "&lsaquo; Oldingi rasm"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:149
 msgid "Next Photo &rsaquo;"
-msgstr ""
+msgstr "Keyingi rasm &rsaquo;"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:150
 msgid "Next &rsaquo;"
-msgstr ""
+msgstr "Keyingi &rsaquo;"
 
 #: .\venv\Lib\site-packages\ckeditor_uploader\templates\ckeditor\browse.html:151
 msgid "&lsaquo; Prev"
-msgstr ""
+msgstr "&lsaquo; Oldingi"
 
 #: .\venv\Lib\site-packages\click\_termui_impl.py:556
 #, python-brace-format
 msgid "{editor}: Editing failed"
-msgstr ""
+msgstr "{editor}: Tahrirlashda xatolik yuz berdi"
 
 #: .\venv\Lib\site-packages\click\_termui_impl.py:560
 #, python-brace-format
 msgid "{editor}: Editing failed: {e}"
-msgstr ""
+msgstr "{editor}: Tahrirlashda xatolik yuz berdi: {e}"
 
 #: .\venv\Lib\site-packages\click\core.py:1124
 msgid "Aborted!"
-msgstr ""
+msgstr "Bekor qilindi!"
 
 #: .\venv\Lib\site-packages\click\core.py:1349
 #: .\venv\Lib\site-packages\click\core.py:1379
 #, python-brace-format
 msgid "(Deprecated) {text}"
-msgstr ""
+msgstr "(Eskirgan) {text}"
 
 #: .\venv\Lib\site-packages\click\core.py:1422
 #, python-brace-format
 msgid "Got unexpected extra argument ({args})"
 msgid_plural "Got unexpected extra arguments ({args})"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kutilmagan qo‘shimcha argument olindi ({args})"
+msgstr[1] "Kutilmagan qo‘shimcha argumentlar olindi ({args})"
 
 #: .\venv\Lib\site-packages\click\core.py:1438
 msgid "DeprecationWarning: The command {name!r} is deprecated."
-msgstr ""
+msgstr "Ogohlantirish: {name!r} bu buyruq eskirgan."
 
 #: .\venv\Lib\site-packages\click\core.py:1645
 msgid "Commands"
-msgstr ""
+msgstr "Buyruqlar"
 
 #: .\venv\Lib\site-packages\click\core.py:1677
 msgid "Missing command."
-msgstr ""
+msgstr "Buyruq ko‘rsatilmagan."
 
 #: .\venv\Lib\site-packages\click\core.py:1755
 msgid "No such command {name!r}."
-msgstr ""
+msgstr "Bunday {name!r} buyruq mavjud emas."
 
 #: .\venv\Lib\site-packages\click\core.py:2313
 msgid "Value must be an iterable."
-msgstr ""
+msgstr "Qiymat iteratsiya qilinadigan turda bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\click\core.py:2334
 #, python-brace-format
 msgid "Takes {nargs} values but 1 was given."
 msgid_plural "Takes {nargs} values but {len} were given."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{nargs} ta qiymat qabul qiladi, ammo 1 ta berildi."
+msgstr[1] "{nargs} ta qiymat qabul qiladi, ammo {len} ta berildi."
 
 #: .\venv\Lib\site-packages\click\core.py:2783
 #, python-brace-format
 msgid "env var: {var}"
-msgstr ""
+msgstr "atrof muhit o‘zgaruvchisi: {var}"
 
 #: .\venv\Lib\site-packages\click\core.py:2813
 msgid "(dynamic)"
-msgstr ""
+msgstr "(dinamik)"
 
 #: .\venv\Lib\site-packages\click\core.py:2828
 #, python-brace-format
 msgid "default: {default}"
-msgstr ""
+msgstr "standart qiymat: {default}"
 
 #: .\venv\Lib\site-packages\click\core.py:2841
 msgid "required"
-msgstr ""
+msgstr "majburiy"
 
 #: .\venv\Lib\site-packages\click\decorators.py:457
 #, python-format
 msgid "%(prog)s, version %(version)s"
-msgstr ""
+msgstr "%(prog)s, versiya %(version)s"
 
 #: .\venv\Lib\site-packages\click\decorators.py:520
 msgid "Show the version and exit."
-msgstr ""
+msgstr "Versiyani ko‘rsatish va chiqish."
 
 #: .\venv\Lib\site-packages\click\decorators.py:541
 msgid "Show this message and exit."
-msgstr ""
+msgstr "Ushbu xabarni ko‘rsatish va chiqish."
 
 #: .\venv\Lib\site-packages\click\exceptions.py:49
 #: .\venv\Lib\site-packages\click\exceptions.py:88
 #, python-brace-format
 msgid "Error: {message}"
-msgstr ""
+msgstr "Xato: {message}"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:80
 #, python-brace-format
 msgid "Try '{command} {option}' for help."
-msgstr ""
+msgstr "Yordam uchun '{command} {option}' ni sinab ko‘ring."
 
 #: .\venv\Lib\site-packages\click\exceptions.py:129
 #, python-brace-format
 msgid "Invalid value: {message}"
-msgstr ""
+msgstr "Noto‘g‘ri qiymat: {message}"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:131
 #, python-brace-format
 msgid "Invalid value for {param_hint}: {message}"
-msgstr ""
+msgstr "{param_hint} uchun noto‘g‘ri qiymat: {message}"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:187
 msgid "Missing argument"
-msgstr ""
+msgstr "Argument yetishmayapti"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:189
 msgid "Missing option"
-msgstr ""
+msgstr "Parametr yetishmayapti"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:191
 msgid "Missing parameter"
-msgstr ""
+msgstr "Parametr yetishmayapti"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:193
 #, python-brace-format
 msgid "Missing {param_type}"
-msgstr ""
+msgstr "{param_type} yetishmayapti"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:200
 #, python-brace-format
 msgid "Missing parameter: {param_name}"
-msgstr ""
+msgstr "Parametr yetishmayapti: {param_name}"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:220
 #, python-brace-format
 msgid "No such option: {name}"
-msgstr ""
+msgstr "Bunday parametr yo‘q: {name}"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:232
 #, python-brace-format
 msgid "Did you mean {possibility}?"
 msgid_plural "(Possible options: {possibilities})"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Siz {possibility} ni nazarda tutyapsizmi?"
+msgstr[1] "(Mumkin bo‘lgan parametrlar: {possibilities})"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:270
 msgid "unknown error"
-msgstr ""
+msgstr "noma’lum xato"
 
 #: .\venv\Lib\site-packages\click\exceptions.py:277
 msgid "Could not open file {filename!r}: {message}"
-msgstr ""
+msgstr "Faylni ochib bo‘lmadi {filename!r}: {message}"
 
 #: .\venv\Lib\site-packages\click\formatting.py:156
 msgid "Usage:"
-msgstr ""
+msgstr "Foydalanish:"
 
 #: .\venv\Lib\site-packages\click\parser.py:233
 msgid "Argument {name!r} takes {nargs} values."
-msgstr ""
+msgstr "Argument {name!r} {nargs} ta qiymat oladi."
 
 #: .\venv\Lib\site-packages\click\parser.py:415
 msgid "Option {name!r} does not take a value."
-msgstr ""
+msgstr "Parametr {name!r} qiymat olmaydi."
 
 #: .\venv\Lib\site-packages\click\parser.py:476
 msgid "Option {name!r} requires an argument."
 msgid_plural "Option {name!r} requires {nargs} arguments."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Parametr {name!r} argument talab qiladi."
+msgstr[1] "Parametr {name!r} {nargs} ta argument talab qiladi."
 
 #: .\venv\Lib\site-packages\click\shell_completion.py:326
 msgid "Shell completion is not supported for Bash versions older than 4.4."
-msgstr ""
+msgstr "Bash 4.4 dan eski versiyalarda shell to‘ldirish qo‘llab-quvvatlanmaydi."
 
 #: .\venv\Lib\site-packages\click\shell_completion.py:333
 msgid "Couldn't detect Bash version, shell completion is not supported."
-msgstr ""
+msgstr "Bash versiyasi aniqlanmadi, shell to‘ldirish qo‘llab-quvvatlanmaydi."
 
 #: .\venv\Lib\site-packages\click\termui.py:158
 msgid "Repeat for confirmation"
-msgstr ""
+msgstr "Tasdiqlash uchun takrorlang"
 
 #: .\venv\Lib\site-packages\click\termui.py:174
 msgid "Error: The value you entered was invalid."
-msgstr ""
+msgstr "Xato: Siz kiritgan qiymat noto‘g‘ri."
 
 #: .\venv\Lib\site-packages\click\termui.py:176
 #, python-brace-format
 msgid "Error: {e.message}"
-msgstr ""
+msgstr "Xato: {e.message}"
 
 #: .\venv\Lib\site-packages\click\termui.py:187
 msgid "Error: The two entered values do not match."
-msgstr ""
+msgstr "Xato: Kiritilgan ikki qiymat mos kelmaydi."
 
 #: .\venv\Lib\site-packages\click\termui.py:243
 msgid "Error: invalid input"
-msgstr ""
+msgstr "Xato: noto‘g‘ri kiritish"
 
 #: .\venv\Lib\site-packages\click\termui.py:773
 msgid "Press any key to continue..."
-msgstr ""
+msgstr "Davom ettirish uchun istalgan tugmani bosing..."
 
 #: .\venv\Lib\site-packages\click\types.py:267
 #, python-brace-format
 msgid ""
 "Choose from:\n"
 "\t{choices}"
-msgstr ""
+msgstr "Quyidagilardan tanlang:\n\t{choices}"
 
 #: .\venv\Lib\site-packages\click\types.py:299
 msgid "{value!r} is not {choice}."
 msgid_plural "{value!r} is not one of {choices}."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{value!r} {choice} emas."
+msgstr[1] "{value!r} quyidagilardan biri emas: {choices}."
 
 #: .\venv\Lib\site-packages\click\types.py:393
 msgid "{value!r} does not match the format {format}."
 msgid_plural "{value!r} does not match the formats {formats}."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{value!r} {format} formatiga mos kelmaydi."
+msgstr[1] "{value!r} quyidagi formatlarga mos kelmaydi: {formats}."
 
 #: .\venv\Lib\site-packages\click\types.py:415
 msgid "{value!r} is not a valid {number_type}."
-msgstr ""
+msgstr "{value!r} yaroqli {number_type} emas."
 
 #: .\venv\Lib\site-packages\click\types.py:471
 #, python-brace-format
 msgid "{value} is not in the range {range}."
-msgstr ""
+msgstr "{value} {range} oralig‘ida emas."
 
 #: .\venv\Lib\site-packages\click\types.py:612
 msgid "{value!r} is not a valid boolean."
-msgstr ""
+msgstr "{value!r} to‘g‘ri boolean emas."
 
 #: .\venv\Lib\site-packages\click\types.py:636
 msgid "{value!r} is not a valid UUID."
-msgstr ""
+msgstr "{value!r} to‘g‘ri UUID emas."
 
 #: .\venv\Lib\site-packages\click\types.py:826
 msgid "file"
-msgstr ""
+msgstr "fayl"
 
 #: .\venv\Lib\site-packages\click\types.py:828
 msgid "directory"
-msgstr ""
+msgstr "papka"
 
 #: .\venv\Lib\site-packages\click\types.py:830
 msgid "path"
-msgstr ""
+msgstr "yo‘l"
 
 #: .\venv\Lib\site-packages\click\types.py:881
 msgid "{name} {filename!r} does not exist."
-msgstr ""
+msgstr "{name} {filename!r} mavjud emas."
 
 #: .\venv\Lib\site-packages\click\types.py:890
 msgid "{name} {filename!r} is a file."
-msgstr ""
+msgstr "{name} {filename!r} fayl."
 
 #: .\venv\Lib\site-packages\click\types.py:898
 msgid "{name} {filename!r} is a directory."
-msgstr ""
+msgstr "{name} {filename!r} papka."
 
 #: .\venv\Lib\site-packages\click\types.py:907
 msgid "{name} {filename!r} is not readable."
-msgstr ""
+msgstr "{name} {filename!r} o‘qilmaydi."
 
 #: .\venv\Lib\site-packages\click\types.py:916
 msgid "{name} {filename!r} is not writable."
-msgstr ""
+msgstr "{name} {filename!r} yozilmaydi."
 
 #: .\venv\Lib\site-packages\click\types.py:925
 msgid "{name} {filename!r} is not executable."
-msgstr ""
+msgstr "{name} {filename!r} bajarilmaydi."
 
 #: .\venv\Lib\site-packages\click\types.py:992
 #, python-brace-format
 msgid "{len_type} values are required, but {len_value} was given."
 msgid_plural "{len_type} values are required, but {len_value} were given."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{len_type} qiymatlar talab qilinadi, ammo {len_value} berildi."
+msgstr[1] "{len_type} qiymatlar talab qilinadi, ammo {len_value} berildi."
 
 #: .\venv\Lib\site-packages\django\contrib\messages\apps.py:15
 msgid "Messages"
-msgstr ""
+msgstr "Xabarlar"
 
 #: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:8
 msgid "Site Maps"
-msgstr ""
+msgstr "Sayt xaritalari"
 
 #: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
 msgid "Static Files"
-msgstr ""
+msgstr "Statik fayllar"
 
 #: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
 msgid "Syndication"
-msgstr ""
+msgstr "Sindikatsiya"
 
-#. Translators: String used to replace omitted page numbers in elided page
-#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
 #: .\venv\Lib\site-packages\django\core\paginator.py:30
 msgid "…"
-msgstr ""
+msgstr "…"
 
 #: .\venv\Lib\site-packages\django\core\paginator.py:50
 msgid "That page number is not an integer"
-msgstr ""
+msgstr "Sahifa raqami butun son emas"
 
 #: .\venv\Lib\site-packages\django\core\paginator.py:52
 msgid "That page number is less than 1"
-msgstr ""
+msgstr "Sahifa raqami 1 dan kichik"
 
 #: .\venv\Lib\site-packages\django\core\paginator.py:54
 msgid "That page contains no results"
-msgstr ""
+msgstr "Ushbu sahifada natijalar yo‘q"
 
 #: .\venv\Lib\site-packages\django\core\validators.py:22
 msgid "Enter a valid value."
-msgstr ""
+msgstr "To‘g‘ri qiymat kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:104
 #: .\venv\Lib\site-packages\django\forms\fields.py:752
 msgid "Enter a valid URL."
-msgstr ""
+msgstr "To‘g‘ri URL kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:165
 msgid "Enter a valid integer."
-msgstr ""
+msgstr "To‘g‘ri butun son kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:176
 msgid "Enter a valid email address."
-msgstr ""
+msgstr "To‘g‘ri email manzil kiriting."
 
-#. Translators: "letters" means latin letters: a-z and A-Z.
 #: .\venv\Lib\site-packages\django\core\validators.py:259
-msgid ""
-"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
-msgstr ""
+msgid "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr "Faqat harflar, raqamlar, pastki chiziq yoki tiredan tashkil topgan to‘g‘ri 'slug' kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:267
-msgid ""
-"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
-"hyphens."
-msgstr ""
+msgid "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or hyphens."
+msgstr "Unicode harflar, raqamlar, pastki chiziq yoki tiredan tashkil topgan to‘g‘ri 'slug' kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:281
 #: .\venv\Lib\site-packages\django\core\validators.py:289
 #: .\venv\Lib\site-packages\django\core\validators.py:318
 msgid "Enter a valid IPv4 address."
-msgstr ""
+msgstr "To‘g‘ri IPv4 manzil kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:298
 #: .\venv\Lib\site-packages\django\core\validators.py:319
 msgid "Enter a valid IPv6 address."
-msgstr ""
+msgstr "To‘g‘ri IPv6 manzil kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:310
 #: .\venv\Lib\site-packages\django\core\validators.py:317
 msgid "Enter a valid IPv4 or IPv6 address."
-msgstr ""
+msgstr "To‘g‘ri IPv4 yoki IPv6 manzil kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:353
 msgid "Enter only digits separated by commas."
-msgstr ""
+msgstr "Faqat vergullar bilan ajratilgan raqamlarni kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:359
 #, python-format
 msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
-msgstr ""
+msgstr "Qiymat %(limit_value)s ga teng bo‘lishi kerak (hozir %(show_value)s)."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:394
 #, python-format
 msgid "Ensure this value is less than or equal to %(limit_value)s."
-msgstr ""
+msgstr "Qiymat %(limit_value)s dan kichik yoki teng bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:403
 #, python-format
 msgid "Ensure this value is greater than or equal to %(limit_value)s."
-msgstr ""
+msgstr "Qiymat %(limit_value)s dan katta yoki teng bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:412
 #, python-format
 msgid "Ensure this value is a multiple of step size %(limit_value)s."
-msgstr ""
+msgstr "Qiymat %(limit_value)s qadamining ko‘paytmasi bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:422
 #, python-format
-msgid ""
-"Ensure this value has at least %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at least %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-msgstr[1] ""
+msgid "Ensure this value has at least %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at least %(limit_value)d characters (it has %(show_value)d)."
+msgstr[0] "Qiymat kamida %(limit_value)d belgidan iborat bo‘lishi kerak (hozir %(show_value)d)."
+msgstr[1] "Qiymat kamida %(limit_value)d belgidan iborat bo‘lishi kerak (hozir %(show_value)d)."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:440
 #, python-format
-msgid ""
-"Ensure this value has at most %(limit_value)d character (it has "
-"%(show_value)d)."
-msgid_plural ""
-"Ensure this value has at most %(limit_value)d characters (it has "
-"%(show_value)d)."
-msgstr[0] ""
-msgstr[1] ""
+msgid "Ensure this value has at most %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at most %(limit_value)d characters (it has %(show_value)d)."
+msgstr[0] "Qiymat maksimal %(limit_value)d belgidan iborat bo‘lishi kerak (hozir %(show_value)d)."
+msgstr[1] "Qiymat maksimal %(limit_value)d belgidan iborat bo‘lishi kerak (hozir %(show_value)d)."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:463
 #: .\venv\Lib\site-packages\django\forms\fields.py:347
 #: .\venv\Lib\site-packages\django\forms\fields.py:386
 msgid "Enter a number."
-msgstr ""
+msgstr "Raqam kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:465
 #, python-format
 msgid "Ensure that there are no more than %(max)s digit in total."
 msgid_plural "Ensure that there are no more than %(max)s digits in total."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Jami raqamlar soni %(max)s dan ko‘p bo‘lmasligi kerak."
+msgstr[1] "Jami raqamlar soni %(max)s dan ko‘p bo‘lmasligi kerak."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:470
 #, python-format
 msgid "Ensure that there are no more than %(max)s decimal place."
 msgid_plural "Ensure that there are no more than %(max)s decimal places."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kasr qismi uzunligi %(max)s dan oshmasligi kerak."
+msgstr[1] "Kasr qismi uzunligi %(max)s dan oshmasligi kerak."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:475
 #, python-format
-msgid ""
-"Ensure that there are no more than %(max)s digit before the decimal point."
-msgid_plural ""
-"Ensure that there are no more than %(max)s digits before the decimal point."
-msgstr[0] ""
-msgstr[1] ""
+msgid "Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural "Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] "O‘nlik nuqtadan oldingi raqamlar soni %(max)s dan oshmasligi kerak."
+msgstr[1] "O‘nlik nuqtadan oldingi raqamlar soni %(max)s dan oshmasligi kerak."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:546
 #, python-format
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
-msgstr ""
+msgstr "“%(extension)s” kengaytmasi ruxsat etilmagan. Ruxsat etilgan kengaytmalar: %(allowed_extensions)s."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:607
 msgid "Null characters are not allowed."
-msgstr ""
+msgstr "Null belgilariga ruxsat berilmaydi."
 
 #: .\venv\Lib\site-packages\django\db\models\base.py:1423
 #: .\venv\Lib\site-packages\django\forms\models.py:893
 msgid "and"
-msgstr ""
+msgstr "va"
 
 #: .\venv\Lib\site-packages\django\db\models\base.py:1425
 #, python-format
 msgid "%(model_name)s with this %(field_labels)s already exists."
-msgstr ""
+msgstr "Bunday %(field_labels)s bo‘lgan %(model_name)s allaqachon mavjud."
 
 #: .\venv\Lib\site-packages\django\db\models\constraints.py:17
 #, python-format
 msgid "Constraint “%(name)s” is violated."
-msgstr ""
+msgstr "“%(name)s” cheklovi buzilgan."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:128
 #, python-format
 msgid "Value %(value)r is not a valid choice."
-msgstr ""
+msgstr "%(value)r qiymati to‘g‘ri variant emas."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:129
 msgid "This field cannot be null."
-msgstr ""
+msgstr "Ushbu maydon bo‘sh bo‘la olmaydi."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:130
 msgid "This field cannot be blank."
-msgstr ""
+msgstr "Ushbu maydon bo‘sh qoldirilmaydi."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:131
 #, python-format
 msgid "%(model_name)s with this %(field_label)s already exists."
-msgstr ""
+msgstr "Bunday %(field_label)s bo‘lgan %(model_name)s allaqachon mavjud."
 
 #. Translators: The 'lookup_type' is one of 'date', 'year' or
 #. 'month'. Eg: "Title must be unique for pub_date year"
@@ -1337,46 +1346,46 @@ msgstr ""
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr ""
+msgstr "%(field_label)s %(date_field_label)s %(lookup_type)s bo‘yicha noyob bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:173
 #, python-format
 msgid "Field of type: %(field_type)s"
-msgstr ""
+msgstr "Maydon turi: %(field_type)s"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1094
 #, python-format
 msgid "“%(value)s” value must be either True or False."
-msgstr ""
+msgstr "“%(value)s” qiymati faqat True yoki False bo‘lishi mumkin."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1095
 #, python-format
 msgid "“%(value)s” value must be either True, False, or None."
-msgstr ""
+msgstr "“%(value)s” qiymati True, False yoki None bo‘lishi mumkin."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1097
 msgid "Boolean (Either True or False)"
-msgstr ""
+msgstr "Boolean (True yoki False)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1147
 #, python-format
 msgid "String (up to %(max_length)s)"
-msgstr ""
+msgstr "Matn (eng ko‘p %(max_length)s ta belgi)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1149
 msgid "String (unlimited)"
-msgstr ""
+msgstr "Matn (cheklanmagan)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1253
 msgid "Comma-separated integers"
-msgstr ""
+msgstr "Vergul bilan ajratilgan butun sonlar"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1354
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
-msgstr ""
+msgstr "“%(value)s” qiymatining sana formati noto‘g‘ri. YYYY-MM-DD shaklida bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1358
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1493
@@ -1384,790 +1393,790 @@ msgstr ""
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
 "date."
-msgstr ""
+msgstr "“%(value)s” qiymati YYYY-MM-DD formatida, lekin noto‘g‘ri sana."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1362
 msgid "Date (without time)"
-msgstr ""
+msgstr "Sana (vaqt ko‘rsatilmagan)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1489
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
 "HH:MM[:ss[.uuuuuu]][TZ] format."
-msgstr ""
+msgstr "“%(value)s” qiymatining formati noto‘g‘ri. YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] shaklida bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
 "[TZ]) but it is an invalid date/time."
-msgstr ""
+msgstr "“%(value)s” qiymati format jihatdan to‘g‘ri, ammo noto‘g‘ri sana/vaqt."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1502
 msgid "Date (with time)"
-msgstr ""
+msgstr "Sana (vaqt bilan)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1626
 #, python-format
 msgid "“%(value)s” value must be a decimal number."
-msgstr ""
+msgstr "“%(value)s” qiymati o‘nlik son bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1628
 msgid "Decimal number"
-msgstr ""
+msgstr "O‘nlik son"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1789
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] "
 "[[HH:]MM:]ss[.uuuuuu] format."
-msgstr ""
+msgstr "“%(value)s” qiymatining formati noto‘g‘ri. [DD] [[HH:]MM:]ss[.uuuuuu] shaklida bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1793
 msgid "Duration"
-msgstr ""
+msgstr "Davomiylik"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1845
 msgid "Email address"
-msgstr ""
+msgstr "Elektron pochta manzili"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1870
 msgid "File path"
-msgstr ""
+msgstr "Fayl yo‘li"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1948
 #, python-format
 msgid "“%(value)s” value must be a float."
-msgstr ""
+msgstr "“%(value)s” qiymati haqiqiy son (float) bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1950
 msgid "Floating point number"
-msgstr ""
+msgstr "Haqiqiy son (float)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1990
 #, python-format
 msgid "“%(value)s” value must be an integer."
-msgstr ""
+msgstr "“%(value)s” qiymati butun son bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1992
 msgid "Integer"
-msgstr ""
+msgstr "Butun son"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2088
 msgid "Big (8 byte) integer"
-msgstr ""
+msgstr "Katta (8 bayt) butun son"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2105
 msgid "Small integer"
-msgstr ""
+msgstr "Kichik butun son"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2113
 msgid "IPv4 address"
-msgstr ""
+msgstr "IPv4 manzili"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2144
 msgid "IP address"
-msgstr ""
+msgstr "IP manzili"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2237
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2238
 #, python-format
 msgid "“%(value)s” value must be either None, True or False."
-msgstr ""
+msgstr "“%(value)s” qiymati None, True yoki False bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2240
 msgid "Boolean (Either True, False or None)"
-msgstr ""
+msgstr "Boolean (True, False yoki None)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2291
 msgid "Positive big integer"
-msgstr ""
+msgstr "Musbat katta butun son"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2306
 msgid "Positive integer"
-msgstr ""
+msgstr "Musbat butun son"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2321
 msgid "Positive small integer"
-msgstr ""
+msgstr "Musbat kichik butun son"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2337
 #, python-format
 msgid "Slug (up to %(max_length)s)"
-msgstr ""
+msgstr "Slug (maksimal uzunligi %(max_length)s)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2448
 #, python-format
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
-msgstr ""
+msgstr "“%(value)s” qiymat noto‘g‘ri formatda. U HH:MM[:ss[.uuuuuu]] formatida bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2452
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
-msgstr ""
+msgstr "“%(value)s” qiymat formati to‘g‘ri (HH:MM[:ss[.uuuuuu]]), lekin vaqt noto‘g‘ri."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2456
 msgid "Time"
-msgstr ""
+msgstr "Vaqt"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2564
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2588
 msgid "Raw binary data"
-msgstr ""
+msgstr "Xom ikkilik ma'lumot"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2653
 #, python-format
 msgid "“%(value)s” is not a valid UUID."
-msgstr ""
+msgstr "“%(value)s” yaroqli UUID emas."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2655
 msgid "Universally unique identifier"
-msgstr ""
+msgstr "Umumiy noyob identifikator"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\json.py:26
 msgid "A JSON object"
-msgstr ""
+msgstr "JSON obyekti"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\json.py:28
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "Qiymat yaroqli JSON bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:919
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr ""
+msgstr "%(model)s modeli uchun %(field)s %(value)r qiymatli obyekt mavjud emas."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:921
 msgid "Foreign Key (type determined by related field)"
-msgstr ""
+msgstr "Tashqi kalit (bog‘langan maydon turi bo‘yicha)"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1212
 msgid "One-to-one relationship"
-msgstr ""
+msgstr "Birga-bir munosabat"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1269
 #, python-format
 msgid "%(from)s-%(to)s relationship"
-msgstr ""
+msgstr "%(from)s-%(to)s munosabati"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1271
 #, python-format
 msgid "%(from)s-%(to)s relationships"
-msgstr ""
+msgstr "%(from)s-%(to)s munosabatlari"
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:1319
 msgid "Many-to-many relationship"
-msgstr ""
+msgstr "Ko‘pga-ko‘p munosabat"
 
 #. Translators: If found as last label character, these punctuation
 #. characters will prevent the default label_suffix to be appended to the label
 #: .\venv\Lib\site-packages\django\forms\boundfield.py:184
 msgid ":?.!"
-msgstr ""
+msgstr ":?.!"
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:91
 msgid "This field is required."
-msgstr ""
+msgstr "Ushbu maydon to‘ldirilishi shart."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:298
 msgid "Enter a whole number."
-msgstr ""
+msgstr "Butun son kiriting."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:467
 #: .\venv\Lib\site-packages\django\forms\fields.py:1241
 msgid "Enter a valid date."
-msgstr ""
+msgstr "Yaroqli sana kiriting."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:490
 #: .\venv\Lib\site-packages\django\forms\fields.py:1242
 msgid "Enter a valid time."
-msgstr ""
+msgstr "Yaroqli vaqt kiriting."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:517
 msgid "Enter a valid date/time."
-msgstr ""
+msgstr "Yaroqli sana/vaqt kiriting."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:551
 msgid "Enter a valid duration."
-msgstr ""
+msgstr "Yaroqli davomiylik kiriting."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:552
 #, python-brace-format
 msgid "The number of days must be between {min_days} and {max_days}."
-msgstr ""
+msgstr "Kunlar soni {min_days} dan {max_days} gacha bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:621
 msgid "No file was submitted. Check the encoding type on the form."
-msgstr ""
+msgstr "Hech qanday fayl yuborilmadi. Forma kodlash turini tekshiring."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:622
 msgid "No file was submitted."
-msgstr ""
+msgstr "Hech qanday fayl yuborilmadi."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:623
 msgid "The submitted file is empty."
-msgstr ""
+msgstr "Yuborilgan fayl bo‘sh."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:625
 #, python-format
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Fayl nomi maksimal %(max)d ta belgidan iborat bo‘lishi kerak (hozir %(length)d)."
+msgstr[1] "Fayl nomi maksimal %(max)d ta belgidan iborat bo‘lishi kerak (hozir %(length)d)."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:630
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr ""
+msgstr "Iltimos, faqat fayl yuboring yoki tozalash katagiga belgi qo‘ying, ikkala bir vaqtning o‘zida emas."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:694
 msgid ""
 "Upload a valid image. The file you uploaded was either not an image or a "
 "corrupted image."
-msgstr ""
+msgstr "Yaroqli rasm yuklang. Yuklagan faylingiz rasm emas yoki buzilgan."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:857
 #: .\venv\Lib\site-packages\django\forms\fields.py:949
 #: .\venv\Lib\site-packages\django\forms\models.py:1566
 #, python-format
 msgid "Select a valid choice. %(value)s is not one of the available choices."
-msgstr ""
+msgstr "To‘g‘ri variantni tanlang. %(value)s mavjud variantlardan emas."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:951
 #: .\venv\Lib\site-packages\django\forms\fields.py:1070
 #: .\venv\Lib\site-packages\django\forms\models.py:1564
 msgid "Enter a list of values."
-msgstr ""
+msgstr "Qiymatlar ro‘yxatini kiriting."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:1071
 msgid "Enter a complete value."
-msgstr ""
+msgstr "To‘liq qiymat kiriting."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:1313
 msgid "Enter a valid UUID."
-msgstr ""
+msgstr "Yaroqli UUID kiriting."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:1343
 msgid "Enter a valid JSON."
-msgstr ""
+msgstr "Yaroqli JSON kiriting."
 
 #. Translators: This is the default suffix added to form field labels
 #: .\venv\Lib\site-packages\django\forms\forms.py:98
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: .\venv\Lib\site-packages\django\forms\forms.py:244
 #: .\venv\Lib\site-packages\django\forms\forms.py:328
 #, python-format
 msgid "(Hidden field %(name)s) %(error)s"
-msgstr ""
+msgstr "(Yashirilgan maydon %(name)s) %(error)s"
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:63
 #, python-format
 msgid ""
 "ManagementForm data is missing or has been tampered with. Missing fields: "
 "%(field_names)s. You may need to file a bug report if the issue persists."
-msgstr ""
+msgstr "ManagementForm ma'lumotlari yo‘q yoki buzilgan. Yo‘qolgan maydonlar: %(field_names)s. Muammo davom etsa xato haqida xabar yuborishingiz kerak bo‘lishi mumkin."
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:67
 #, python-format
 msgid "Please submit at most %(num)d form."
 msgid_plural "Please submit at most %(num)d forms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Iltimos, maksimal %(num)d ta forma yuboring."
+msgstr[1] "Iltimos, maksimal %(num)d ta forma yuboring."
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:72
 #, python-format
 msgid "Please submit at least %(num)d form."
 msgid_plural "Please submit at least %(num)d forms."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Iltimos, kamida %(num)d ta forma yuboring."
+msgstr[1] "Iltimos, kamida %(num)d ta forma yuboring."
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:484
 #: .\venv\Lib\site-packages\django\forms\formsets.py:491
 msgid "Order"
-msgstr ""
+msgstr "Tartib"
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:499
 msgid "Delete"
-msgstr ""
+msgstr "O‘chirish"
 
 #: .\venv\Lib\site-packages\django\forms\models.py:886
 #, python-format
 msgid "Please correct the duplicate data for %(field)s."
-msgstr ""
+msgstr "%(field)s uchun takrorlangan ma’lumotlarni to‘g‘rilang."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:891
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr ""
+msgstr "%(field)s uchun takrorlangan ma’lumotlarni to‘g‘rilang, u noyob bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:898
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
-msgstr ""
+msgstr "%(date_field)s da %(lookup)s uchun noyob bo‘lishi kerak bo‘lgan %(field_name)s dagi takrorlangan ma’lumotlarni to‘g‘rilang."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:907
 msgid "Please correct the duplicate values below."
-msgstr ""
+msgstr "Iltimos, quyidagi takroriy qiymatlarni to‘g‘rilang."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1338
 msgid "The inline value did not match the parent instance."
-msgstr ""
+msgstr "Ichki qiymat ota instansiya bilan mos kelmadi."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1429
 msgid "Select a valid choice. That choice is not one of the available choices."
-msgstr ""
+msgstr "To‘g‘ri variantni tanlang. Ushbu variant mavjud tanlovlardan emas."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:1568
 #, python-format
 msgid "“%(pk)s” is not a valid value."
-msgstr ""
+msgstr "“%(pk)s” haqiqiy qiymat emas."
 
 #: .\venv\Lib\site-packages\django\forms\utils.py:226
 #, python-format
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
-msgstr ""
+msgstr "%(datetime)s vaqt mintaqasi %(current_timezone)s da tushunilmadi; u noaniq yoki mavjud emas bo‘lishi mumkin."
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:463
 msgid "Clear"
-msgstr ""
+msgstr "Tozalash"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:464
 msgid "Currently"
-msgstr ""
+msgstr "Hozirda"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:465
 msgid "Change"
-msgstr ""
+msgstr "O‘zgartirish"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:794
 msgid "Unknown"
-msgstr ""
+msgstr "Noma’lum"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:795
 msgid "Yes"
-msgstr ""
+msgstr "Ha"
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:796
 msgid "No"
-msgstr ""
+msgstr "Yo‘q"
 
 #. Translators: Please do not add spaces around commas.
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:874
 msgid "yes,no,maybe"
-msgstr ""
+msgstr "ha,yo‘q,balki"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:904
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:921
 #, python-format
 msgid "%(size)d byte"
 msgid_plural "%(size)d bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(size)d bayt"
+msgstr[1] "%(size)d bayt"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:923
 #, python-format
 msgid "%s KB"
-msgstr ""
+msgstr "%s KB"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:925
 #, python-format
 msgid "%s MB"
-msgstr ""
+msgstr "%s MB"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:927
 #, python-format
 msgid "%s GB"
-msgstr ""
+msgstr "%s GB"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:929
 #, python-format
 msgid "%s TB"
-msgstr ""
+msgstr "%s TB"
 
 #: .\venv\Lib\site-packages\django\template\defaultfilters.py:931
 #, python-format
 msgid "%s PB"
-msgstr ""
+msgstr "%s PB"
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:73
 msgid "p.m."
-msgstr ""
+msgstr "p.m."
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:74
 msgid "a.m."
-msgstr ""
+msgstr "a.m."
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:79
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:80
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:152
 msgid "midnight"
-msgstr ""
+msgstr "yarim kecha"
 
 #: .\venv\Lib\site-packages\django\utils\dateformat.py:154
 msgid "noon"
-msgstr ""
+msgstr "peshin"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:7
 msgid "Monday"
-msgstr ""
+msgstr "Dushanba"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:8
 msgid "Tuesday"
-msgstr ""
+msgstr "Seshanba"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:9
 msgid "Wednesday"
-msgstr ""
+msgstr "Chorshanba"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:10
 msgid "Thursday"
-msgstr ""
+msgstr "Payshanba"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:11
 msgid "Friday"
-msgstr ""
+msgstr "Juma"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:12
 msgid "Saturday"
-msgstr ""
+msgstr "Shanba"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:13
 msgid "Sunday"
-msgstr ""
+msgstr "Yakshanba"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:16
 msgid "Mon"
-msgstr ""
+msgstr "Du"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:17
 msgid "Tue"
-msgstr ""
+msgstr "Se"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:18
 msgid "Wed"
-msgstr ""
+msgstr "Cho"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:19
 msgid "Thu"
-msgstr ""
+msgstr "Pay"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:20
 msgid "Fri"
-msgstr ""
+msgstr "Ju"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:21
 msgid "Sat"
-msgstr ""
+msgstr "Sha"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:22
 msgid "Sun"
-msgstr ""
+msgstr "Ya"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:25
 msgid "January"
-msgstr ""
+msgstr "Yanvar"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:26
 msgid "February"
-msgstr ""
+msgstr "Fevral"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:27
 msgid "March"
-msgstr ""
+msgstr "Mart"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:28
 msgid "April"
-msgstr ""
+msgstr "Aprel"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:29
 msgid "May"
-msgstr ""
+msgstr "May"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:30
 msgid "June"
-msgstr ""
+msgstr "Iyun"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:31
 msgid "July"
-msgstr ""
+msgstr "Iyul"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:32
 msgid "August"
-msgstr ""
+msgstr "Avgust"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:33
 msgid "September"
-msgstr ""
+msgstr "Sentyabr"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:34
 msgid "October"
-msgstr ""
+msgstr "Oktyabr"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:35
 msgid "November"
-msgstr ""
+msgstr "Noyabr"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:36
 msgid "December"
-msgstr ""
+msgstr "Dekabr"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:39
 msgid "jan"
-msgstr ""
+msgstr "yan"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:40
 msgid "feb"
-msgstr ""
+msgstr "fev"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:41
 msgid "mar"
-msgstr ""
+msgstr "mar"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:42
 msgid "apr"
-msgstr ""
+msgstr "apr"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:43
 msgid "may"
-msgstr ""
+msgstr "may"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:44
 msgid "jun"
-msgstr ""
+msgstr "iun"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:45
 msgid "jul"
-msgstr ""
+msgstr "iyul"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:46
 msgid "aug"
-msgstr ""
+msgstr "avg"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:47
 msgid "sep"
-msgstr ""
+msgstr "sen"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:48
 msgid "oct"
-msgstr ""
+msgstr "okt"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:49
 msgid "nov"
-msgstr ""
+msgstr "noy"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:50
 msgid "dec"
-msgstr ""
+msgstr "dek"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:53
 msgctxt "abbrev. month"
 msgid "Jan."
-msgstr ""
+msgstr "Yan."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:54
 msgctxt "abbrev. month"
 msgid "Feb."
-msgstr ""
+msgstr "Fev."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:55
 msgctxt "abbrev. month"
 msgid "March"
-msgstr ""
+msgstr "Mart"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:56
 msgctxt "abbrev. month"
 msgid "April"
-msgstr ""
+msgstr "Aprel"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:57
 msgctxt "abbrev. month"
 msgid "May"
-msgstr ""
+msgstr "May"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:58
 msgctxt "abbrev. month"
 msgid "June"
-msgstr ""
+msgstr "Iyun"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:59
 msgctxt "abbrev. month"
 msgid "July"
-msgstr ""
+msgstr "Iyul"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:60
 msgctxt "abbrev. month"
 msgid "Aug."
-msgstr ""
+msgstr "Avg."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:61
 msgctxt "abbrev. month"
 msgid "Sept."
-msgstr ""
+msgstr "Sen."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:62
 msgctxt "abbrev. month"
 msgid "Oct."
-msgstr ""
+msgstr "Okt."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:63
 msgctxt "abbrev. month"
 msgid "Nov."
-msgstr ""
+msgstr "Noy."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:64
 msgctxt "abbrev. month"
 msgid "Dec."
-msgstr ""
+msgstr "Dek."
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:67
 msgctxt "alt. month"
 msgid "January"
-msgstr ""
+msgstr "Yanvar"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:68
 msgctxt "alt. month"
 msgid "February"
-msgstr ""
+msgstr "Fevral"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:69
 msgctxt "alt. month"
 msgid "March"
-msgstr ""
+msgstr "Mart"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:70
 msgctxt "alt. month"
 msgid "April"
-msgstr ""
+msgstr "Aprel"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:71
 msgctxt "alt. month"
 msgid "May"
-msgstr ""
+msgstr "May"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:72
 msgctxt "alt. month"
 msgid "June"
-msgstr ""
+msgstr "Iyun"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:73
 msgctxt "alt. month"
 msgid "July"
-msgstr ""
+msgstr "Iyul"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:74
 msgctxt "alt. month"
 msgid "August"
-msgstr ""
+msgstr "Avgust"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:75
 msgctxt "alt. month"
 msgid "September"
-msgstr ""
+msgstr "Sentyabr"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:76
 msgctxt "alt. month"
 msgid "October"
-msgstr ""
+msgstr "Oktyabr"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:77
 msgctxt "alt. month"
 msgid "November"
-msgstr ""
+msgstr "Noyabr"
 
 #: .\venv\Lib\site-packages\django\utils\dates.py:78
 msgctxt "alt. month"
 msgid "December"
-msgstr ""
+msgstr "Dekabr"
 
 #: .\venv\Lib\site-packages\django\utils\ipv6.py:20
 msgid "This is not a valid IPv6 address."
-msgstr ""
+msgstr "Bu haqiqiy IPv6 manzili emas."
 
 #: .\venv\Lib\site-packages\django\utils\text.py:129
 #, python-format
 msgctxt "String to return when truncating text"
 msgid "%(truncated_text)s…"
-msgstr ""
+msgstr "%(truncated_text)s…"
 
 #: .\venv\Lib\site-packages\django\utils\text.py:314
 msgid "or"
-msgstr ""
+msgstr "yoki"
 
 #. Translators: This string is used as a separator between list elements
 #: .\venv\Lib\site-packages\django\utils\text.py:333
 #: .\venv\Lib\site-packages\django\utils\timesince.py:135
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:8
 #, python-format
 msgid "%(num)d year"
 msgid_plural "%(num)d years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)d yil"
+msgstr[1] "%(num)d yil"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:9
 #, python-format
 msgid "%(num)d month"
 msgid_plural "%(num)d months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)d oy"
+msgstr[1] "%(num)d oy"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:10
 #, python-format
 msgid "%(num)d week"
 msgid_plural "%(num)d weeks"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)d hafta"
+msgstr[1] "%(num)d hafta"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:11
 #, python-format
 msgid "%(num)d day"
 msgid_plural "%(num)d days"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)d kun"
+msgstr[1] "%(num)d kun"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:12
 #, python-format
 msgid "%(num)d hour"
 msgid_plural "%(num)d hours"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)d soat"
+msgstr[1] "%(num)d soat"
 
 #: .\venv\Lib\site-packages\django\utils\timesince.py:13
 #, python-format
 msgid "%(num)d minute"
 msgid_plural "%(num)d minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)d daqiqa"
+msgstr[1] "%(num)d daqiqa"
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:111
 msgid "Forbidden"
-msgstr ""
+msgstr "Ruxsat berilmagan"
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:112
 msgid "CSRF verification failed. Request aborted."
-msgstr ""
+msgstr "CSRF tekshiruvi muvaffaqiyatsiz yakunlandi. So‘rov bekor qilindi."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:116
 msgid ""
@@ -2176,6 +2185,10 @@ msgid ""
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
+"Ushbu xabarni ko‘rishingizning sababi shundaki, bu HTTPS sayt brauzeringizdan "
+"“Referer” sarlavhasini yuborishni talab qiladi, lekin hech narsa yuborilmadi. "
+"Ushbu sarlavha xavfsizlik sabablaridan kerak, brauzeringiz uchinchi tomonlar tomonidan "
+"egallab olinmasligini ta’minlash uchun."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:122
 msgid ""
@@ -2183,6 +2196,9 @@ msgid ""
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
+"Agar brauzeringizni “Referer” sarlavhalarini o‘chirib qo‘yish uchun sozlagan bo‘lsangiz, "
+"iltimos, ularni kamida ushbu sayt uchun, yoki HTTPS ulanishlari, yoki “bir xil manba” "
+"so‘rovlar uchun qayta yoqing."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:127
 msgid ""
@@ -2192,6 +2208,10 @@ msgid ""
 "If you’re concerned about privacy, use alternatives like <a "
 "rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
+"Agar siz <meta name=\"referrer\" content=\"no-referrer\"> tegi yoki “Referrer-Policy: no-referrer” "
+"sarlavhasini ishlatayotgan bo‘lsangiz, iltimos, ularni olib tashlang. CSRF himoyasi qat’iy "
+"referer tekshiruvi uchun “Referer” sarlavhasini talab qiladi. Maxfiylik haqida xavotirda bo‘lsangiz, "
+"uchinchi tomon saytlarga havolalar uchun <a rel=\"noreferrer\" …> kabi alternativalardan foydalaning."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:136
 msgid ""
@@ -2199,44 +2219,49 @@ msgid ""
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
+"Ushbu xabarni ko‘rishingizning sababi — ushbu sayt formalarni yuborishda CSRF cookie talab qiladi. "
+"Ushbu cookie xavfsizlik uchun kerak, brauzeringizning uchinchi tomonlar tomonidan egallanmasligini "
+"ta’minlash maqsadida."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:142
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
+"Agar brauzeringizni cookie’larni o‘chirib qo‘yish uchun sozlagan bo‘lsangiz, iltimos, ularni "
+"kamida ushbu sayt yoki “bir xil manba” so‘rovlari uchun qayta yoqing."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:148
 msgid "More information is available with DEBUG=True."
-msgstr ""
+msgstr "Batafsil ma’lumotni olish uchun DEBUG=True holatini yoqing."
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:44
 msgid "No year specified"
-msgstr ""
+msgstr "Yil ko‘rsatilmagan"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:64
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:115
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:214
 msgid "Date out of range"
-msgstr ""
+msgstr "Sana diapazondan tashqarida"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:94
 msgid "No month specified"
-msgstr ""
+msgstr "Oy ko‘rsatilmagan"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:147
 msgid "No day specified"
-msgstr ""
+msgstr "Kun ko‘rsatilmagan"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:194
 msgid "No week specified"
-msgstr ""
+msgstr "Hafta ko‘rsatilmagan"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:349
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:380
 #, python-format
 msgid "No %(verbose_name_plural)s available"
-msgstr ""
+msgstr "%(verbose_name_plural)s mavjud emas"
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:652
 #, python-format
@@ -2244,49 +2269,51 @@ msgid ""
 "Future %(verbose_name_plural)s not available because "
 "%(class_name)s.allow_future is False."
 msgstr ""
+"Kelajakdagi %(verbose_name_plural)s mavjud emas, chunki "
+"%(class_name)s.allow_future qiymati False."
 
 #: .\venv\Lib\site-packages\django\views\generic\dates.py:692
 #, python-format
 msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
-msgstr ""
+msgstr "Noto‘g‘ri sana satri “%(datestr)s”, berilgan format “%(format)s”"
 
 #: .\venv\Lib\site-packages\django\views\generic\detail.py:56
 #, python-format
 msgid "No %(verbose_name)s found matching the query"
-msgstr ""
+msgstr "So‘rovga mos keladigan %(verbose_name)s topilmadi"
 
 #: .\venv\Lib\site-packages\django\views\generic\list.py:70
 msgid "Page is not “last”, nor can it be converted to an int."
-msgstr ""
+msgstr "Sahifa “oxirgi” emas va butun songa aylantirib bo‘lmaydi."
 
 #: .\venv\Lib\site-packages\django\views\generic\list.py:77
 #, python-format
 msgid "Invalid page (%(page_number)s): %(message)s"
-msgstr ""
+msgstr "Noto‘g‘ri sahifa (%(page_number)s): %(message)s"
 
 #: .\venv\Lib\site-packages\django\views\generic\list.py:169
 #, python-format
 msgid "Empty list and “%(class_name)s.allow_empty” is False."
-msgstr ""
+msgstr "Ro‘yxat bo‘sh va “%(class_name)s.allow_empty” qiymati False."
 
 #: .\venv\Lib\site-packages\django\views\static.py:38
 msgid "Directory indexes are not allowed here."
-msgstr ""
+msgstr "Bu yerda papka indekslari ruxsat etilmagan."
 
 #: .\venv\Lib\site-packages\django\views\static.py:40
 #, python-format
 msgid "“%(path)s” does not exist"
-msgstr ""
+msgstr "“%(path)s” mavjud emas"
 
 #: .\venv\Lib\site-packages\django\views\static.py:79
 #, python-format
 msgid "Index of %(directory)s"
-msgstr ""
+msgstr "%(directory)s papkasining indeksi"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:7
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:220
 msgid "The install worked successfully! Congratulations!"
-msgstr ""
+msgstr "O‘rnatish muvaffaqiyatli bajarildi! Tabriklaymiz!"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:206
 #, python-format
@@ -2294,6 +2321,8 @@ msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
+"Django %(version)s uchun <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">chiqarilgan yangiliklar</a>ni ko‘ring"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
 #, python-format
@@ -2303,34 +2332,29 @@ msgid ""
 "rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
 "configured any URLs."
 msgstr ""
+"Ushbu sahifani ko‘rayapsiz, chunki sozlamalaringizda <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener\">DEBUG=True</a> "
+"faol va hech qanday URL sozlanmagan."
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
 msgid "Django Documentation"
-msgstr ""
+msgstr "Django hujjatlari"
 
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html
 msgid "Topics, references, &amp; how-to’s"
-msgstr ""
+msgstr "Mavzular, manbalar va qo‘llanmalar"
 
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:238
 msgid "Tutorial: A Polling App"
-msgstr ""
+msgstr "Qo‘llanma: So‘rovnoma ilovasi"
 
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
 msgid "Get started with Django"
-msgstr ""
+msgstr "Djangoda boshlang‘ich"
 
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:247
 msgid "Django Community"
-msgstr ""
+msgstr "Django jamoasi"
 
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
 msgid "Connect, get help, or contribute"
-msgstr ""
+msgstr "Bog‘laning, yordam oling yoki hissa qo‘shing"
 
-#: .\venv\Lib\site-packages\shortuuid\django_fields.py:12
 msgid "A short UUID field."
-msgstr ""
-
-#~ msgid "Hello"
-#~ msgstr "Salom"
+msgstr "Qisqa UUID maydoni."
