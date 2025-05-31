@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-29 12:03+0500\n"
+"POT-Creation-Date: 2025-05-31 12:50+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,7 +86,9 @@ msgstr "faol"
 msgid ""
 "Designates whether this user should be treated as active. Unselect this "
 "instead of deleting accounts."
-msgstr "Foydalanuvchi faol sifatida qabul qilinishini belgilaydi. Hisobni o‘chirish o‘rniga bu belgini olib tashlang."
+msgstr ""
+"Foydalanuvchi faol sifatida qabul qilinishini belgilaydi. Hisobni o‘chirish "
+"o‘rniga bu belgini olib tashlang."
 
 #: .\Admin\models.py:41
 msgid "date joined"
@@ -100,6 +102,39 @@ msgstr "Foydalanuvchi"
 msgid "Users"
 msgstr "Foydalanuvchilar"
 
+#: .\Admin\models.py:70 .\Knowledge\models.py:28
+msgid "Name"
+msgstr "Nomi"
+
+#: .\Admin\models.py:71
+msgid "Chat id"
+msgstr "Chat id"
+
+#: .\Admin\models.py:72
+msgid "Url"
+msgstr "Url"
+
+#: .\Admin\models.py:73
+#, fuzzy
+#| msgid "required"
+msgid "Is required"
+msgstr "Majburiymi"
+
+#: .\Admin\models.py:74 .\Attestation\models.py:23 .\Knowledge\models.py:346
+#: .\Knowledge\models.py:386 .\Knowledge\models.py:401 .\Test\models.py:29
+msgid "Is active"
+msgstr "Faolmi"
+
+#: .\Admin\models.py:83 .\Attestation\models.py:66 .\Certificate\models.py:76
+#: .\Knowledge\models.py:392
+msgid "Channel"
+msgstr "Kanal"
+
+#: .\Admin\models.py:84 .\Attestation\models.py:67 .\Certificate\models.py:77
+#: .\Knowledge\models.py:393
+msgid "Channels"
+msgstr "Kanallar"
+
 #: .\Attestation\models.py:16
 msgid "The test is not available!"
 msgstr "Test mavjud emas!"
@@ -108,11 +143,6 @@ msgstr "Test mavjud emas!"
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2373
 msgid "Text"
 msgstr "Matn"
-
-#: .\Attestation\models.py:23 .\Knowledge\models.py:346
-#: .\Knowledge\models.py:386 .\Knowledge\models.py:401 .\Test\models.py:29
-msgid "Is active"
-msgstr "Faolmi"
 
 #: .\Attestation\models.py:30 .\Certificate\models.py:25
 #: .\Knowledge\models.py:201 .\Knowledge\models.py:210
@@ -135,16 +165,6 @@ msgstr "Kurs"
 #: .\Knowledge\models.py:355
 msgid "Courses"
 msgstr "Kurslar"
-
-#: .\Attestation\models.py:66 .\Certificate\models.py:76
-#: .\Knowledge\models.py:392
-msgid "Channel"
-msgstr "Kanal"
-
-#: .\Attestation\models.py:67 .\Certificate\models.py:77
-#: .\Knowledge\models.py:393
-msgid "Channels"
-msgstr "Kanallar"
 
 #: .\Attestation\models.py:78 .\Certificate\models.py:88
 msgid "Test analyse video"
@@ -210,11 +230,8 @@ msgstr "To‘g‘ri javoblar soni"
 msgid "Only selected answers"
 msgstr "Faqat tanlangan javoblar"
 
-#: .\Knowledge\models.py:28
-msgid "Name"
-msgstr "Nomi"
-
 #: .\Knowledge\models.py:29
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:232
 msgid "File"
 msgstr "Fayl"
 
@@ -226,7 +243,8 @@ msgstr "Telegram fayl ID raqami"
 msgid "Saved File Path"
 msgstr "Saqlangan fayl manzili"
 
-#: .\Knowledge\models.py:33 .\Knowledge\models.py:402 .\Test\models.py:28 .\Test\models.py:88
+#: .\Knowledge\models.py:33 .\Knowledge\models.py:402 .\Test\models.py:28
+#: .\Test\models.py:88
 msgid "Description"
 msgstr "Tavsif"
 
@@ -250,15 +268,18 @@ msgstr "Tugash vaqti"
 msgid "Active"
 msgstr "Faol"
 
-#: .\Knowledge\models.py:44 .\Knowledge\models.py:348 .\Knowledge\models.py:385 .\Knowledge\models.py:404 .\Test\models.py:385
+#: .\Knowledge\models.py:44 .\Knowledge\models.py:348 .\Knowledge\models.py:385
+#: .\Knowledge\models.py:404 .\Test\models.py:385
 msgid "Status"
 msgstr "Holati"
 
-#: .\Knowledge\models.py:45 .\Knowledge\models.py:405 .\Test\models.py:90 .\Test\models.py:268 .\Test\models.py:365
+#: .\Knowledge\models.py:45 .\Knowledge\models.py:405 .\Test\models.py:90
+#: .\Test\models.py:268 .\Test\models.py:365
 msgid "Created at"
 msgstr "Yaratilgan vaqti"
 
-#: .\Knowledge\models.py:46 .\Knowledge\models.py:406 .\Test\models.py:91 .\Test\models.py:269 .\Test\models.py:366
+#: .\Knowledge\models.py:46 .\Knowledge\models.py:406 .\Test\models.py:91
+#: .\Test\models.py:269 .\Test\models.py:366
 msgid "Updated at"
 msgstr "Yangilangan vaqti"
 
@@ -697,7 +718,7 @@ msgid ""
 "school\n"
 "23.4\n"
 "\n"
-"That is, first the closed test answers in one row, then the closed test "
+"That is, first the closed test answers in one row, then the open test "
 "answers in separate rows!"
 msgstr ""
 "Javoblaringizni quyidagi misolga o‘xshab kiriting:\n"
@@ -707,7 +728,8 @@ msgstr ""
 "school\n"
 "23.4\n"
 "\n"
-"Ya’ni, avval yopiq test javoblari bir qatorda, keyin yopiq test javoblari alohida qatorda bo‘lishi kerak!"
+"Ya’ni, avval yopiq test javoblari bir qatorda, keyin ochiq test javoblari "
+"alohida qatorda bo‘lishi kerak!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:84
 msgid "Invalid answers! Try again..."
@@ -790,6 +812,17 @@ msgstr "Sarlavha uchun testlardan birini tanlang..."
 #: .\bot\routers\video_lessons.py:31
 msgid "No lessons found!"
 msgstr "Darslik topilmadi!"
+
+#: .\bot\utils\middlewares\authentication.py:34
+msgid ""
+"Please subscribe to the following channels:\n"
+"\n"
+"Once subscribed, send the /start command again."
+msgstr ""
+"Iltimos, quyidagi kanallarga obuna bo‘ling:\n"
+"\n"
+"Obuna bo‘lgach, /start buyrug‘ini qayta yuboring."
+
 
 #: .\helpers\time_string.py:11
 msgid "hour"
@@ -1048,7 +1081,8 @@ msgstr[1] "Parametr {name!r} {nargs} ta argument talab qiladi."
 
 #: .\venv\Lib\site-packages\click\shell_completion.py:326
 msgid "Shell completion is not supported for Bash versions older than 4.4."
-msgstr "Bash 4.4 dan eski versiyalarda shell to‘ldirish qo‘llab-quvvatlanmaydi."
+msgstr ""
+"Bash 4.4 dan eski versiyalarda shell to‘ldirish qo‘llab-quvvatlanmaydi."
 
 #: .\venv\Lib\site-packages\click\shell_completion.py:333
 msgid "Couldn't detect Bash version, shell completion is not supported."
@@ -1084,7 +1118,9 @@ msgstr "Davom ettirish uchun istalgan tugmani bosing..."
 msgid ""
 "Choose from:\n"
 "\t{choices}"
-msgstr "Quyidagilardan tanlang:\n\t{choices}"
+msgstr ""
+"Quyidagilardan tanlang:\n"
+"\t{choices}"
 
 #: .\venv\Lib\site-packages\click\types.py:299
 msgid "{value!r} is not {choice}."
@@ -1174,6 +1210,8 @@ msgstr "Statik fayllar"
 msgid "Syndication"
 msgstr "Sindikatsiya"
 
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
 #: .\venv\Lib\site-packages\django\core\paginator.py:30
 msgid "…"
 msgstr "…"
@@ -1207,13 +1245,21 @@ msgstr "To‘g‘ri butun son kiriting."
 msgid "Enter a valid email address."
 msgstr "To‘g‘ri email manzil kiriting."
 
+#. Translators: "letters" means latin letters: a-z and A-Z.
 #: .\venv\Lib\site-packages\django\core\validators.py:259
-msgid "Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
-msgstr "Faqat harflar, raqamlar, pastki chiziq yoki tiredan tashkil topgan to‘g‘ri 'slug' kiriting."
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+"Faqat harflar, raqamlar, pastki chiziq yoki tiredan tashkil topgan to‘g‘ri "
+"'slug' kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:267
-msgid "Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or hyphens."
-msgstr "Unicode harflar, raqamlar, pastki chiziq yoki tiredan tashkil topgan to‘g‘ri 'slug' kiriting."
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+"Unicode harflar, raqamlar, pastki chiziq yoki tiredan tashkil topgan to‘g‘ri "
+"'slug' kiriting."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:281
 #: .\venv\Lib\site-packages\django\core\validators.py:289
@@ -1257,17 +1303,33 @@ msgstr "Qiymat %(limit_value)s qadamining ko‘paytmasi bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:422
 #, python-format
-msgid "Ensure this value has at least %(limit_value)d character (it has %(show_value)d)."
-msgid_plural "Ensure this value has at least %(limit_value)d characters (it has %(show_value)d)."
-msgstr[0] "Qiymat kamida %(limit_value)d belgidan iborat bo‘lishi kerak (hozir %(show_value)d)."
-msgstr[1] "Qiymat kamida %(limit_value)d belgidan iborat bo‘lishi kerak (hozir %(show_value)d)."
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"Qiymat kamida %(limit_value)d belgidan iborat bo‘lishi kerak (hozir "
+"%(show_value)d)."
+msgstr[1] ""
+"Qiymat kamida %(limit_value)d belgidan iborat bo‘lishi kerak (hozir "
+"%(show_value)d)."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:440
 #, python-format
-msgid "Ensure this value has at most %(limit_value)d character (it has %(show_value)d)."
-msgid_plural "Ensure this value has at most %(limit_value)d characters (it has %(show_value)d)."
-msgstr[0] "Qiymat maksimal %(limit_value)d belgidan iborat bo‘lishi kerak (hozir %(show_value)d)."
-msgstr[1] "Qiymat maksimal %(limit_value)d belgidan iborat bo‘lishi kerak (hozir %(show_value)d)."
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+"Qiymat maksimal %(limit_value)d belgidan iborat bo‘lishi kerak (hozir "
+"%(show_value)d)."
+msgstr[1] ""
+"Qiymat maksimal %(limit_value)d belgidan iborat bo‘lishi kerak (hozir "
+"%(show_value)d)."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:463
 #: .\venv\Lib\site-packages\django\forms\fields.py:347
@@ -1291,8 +1353,10 @@ msgstr[1] "Kasr qismi uzunligi %(max)s dan oshmasligi kerak."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:475
 #, python-format
-msgid "Ensure that there are no more than %(max)s digit before the decimal point."
-msgid_plural "Ensure that there are no more than %(max)s digits before the decimal point."
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
 msgstr[0] "O‘nlik nuqtadan oldingi raqamlar soni %(max)s dan oshmasligi kerak."
 msgstr[1] "O‘nlik nuqtadan oldingi raqamlar soni %(max)s dan oshmasligi kerak."
 
@@ -1301,7 +1365,9 @@ msgstr[1] "O‘nlik nuqtadan oldingi raqamlar soni %(max)s dan oshmasligi kerak.
 msgid ""
 "File extension “%(extension)s” is not allowed. Allowed extensions are: "
 "%(allowed_extensions)s."
-msgstr "“%(extension)s” kengaytmasi ruxsat etilmagan. Ruxsat etilgan kengaytmalar: %(allowed_extensions)s."
+msgstr ""
+"“%(extension)s” kengaytmasi ruxsat etilmagan. Ruxsat etilgan kengaytmalar: "
+"%(allowed_extensions)s."
 
 #: .\venv\Lib\site-packages\django\core\validators.py:607
 msgid "Null characters are not allowed."
@@ -1346,7 +1412,9 @@ msgstr "Bunday %(field_label)s bo‘lgan %(model_name)s allaqachon mavjud."
 #, python-format
 msgid ""
 "%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
-msgstr "%(field_label)s %(date_field_label)s %(lookup_type)s bo‘yicha noyob bo‘lishi kerak."
+msgstr ""
+"%(field_label)s %(date_field_label)s %(lookup_type)s bo‘yicha noyob bo‘lishi "
+"kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:173
 #, python-format
@@ -1385,7 +1453,9 @@ msgstr "Vergul bilan ajratilgan butun sonlar"
 msgid ""
 "“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
 "format."
-msgstr "“%(value)s” qiymatining sana formati noto‘g‘ri. YYYY-MM-DD shaklida bo‘lishi kerak."
+msgstr ""
+"“%(value)s” qiymatining sana formati noto‘g‘ri. YYYY-MM-DD shaklida bo‘lishi "
+"kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1358
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1493
@@ -1404,7 +1474,9 @@ msgstr "Sana (vaqt ko‘rsatilmagan)"
 msgid ""
 "“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
 "HH:MM[:ss[.uuuuuu]][TZ] format."
-msgstr "“%(value)s” qiymatining formati noto‘g‘ri. YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] shaklida bo‘lishi kerak."
+msgstr ""
+"“%(value)s” qiymatining formati noto‘g‘ri. YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ] shaklida bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1497
 #, python-format
@@ -1431,7 +1503,9 @@ msgstr "O‘nlik son"
 msgid ""
 "“%(value)s” value has an invalid format. It must be in [DD] "
 "[[HH:]MM:]ss[.uuuuuu] format."
-msgstr "“%(value)s” qiymatining formati noto‘g‘ri. [DD] [[HH:]MM:]ss[.uuuuuu] shaklida bo‘lishi kerak."
+msgstr ""
+"“%(value)s” qiymatining formati noto‘g‘ri. [DD] [[HH:]MM:]ss[.uuuuuu] "
+"shaklida bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1793
 msgid "Duration"
@@ -1511,14 +1585,18 @@ msgstr "Slug (maksimal uzunligi %(max_length)s)"
 msgid ""
 "“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
 "format."
-msgstr "“%(value)s” qiymat noto‘g‘ri formatda. U HH:MM[:ss[.uuuuuu]] formatida bo‘lishi kerak."
+msgstr ""
+"“%(value)s” qiymat noto‘g‘ri formatda. U HH:MM[:ss[.uuuuuu]] formatida "
+"bo‘lishi kerak."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2452
 #, python-format
 msgid ""
 "“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
 "invalid time."
-msgstr "“%(value)s” qiymat formati to‘g‘ri (HH:MM[:ss[.uuuuuu]]), lekin vaqt noto‘g‘ri."
+msgstr ""
+"“%(value)s” qiymat formati to‘g‘ri (HH:MM[:ss[.uuuuuu]]), lekin vaqt "
+"noto‘g‘ri."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2456
 msgid "Time"
@@ -1552,7 +1630,8 @@ msgstr "Qiymat yaroqli JSON bo‘lishi kerak."
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:919
 #, python-format
 msgid "%(model)s instance with %(field)s %(value)r does not exist."
-msgstr "%(model)s modeli uchun %(field)s %(value)r qiymatli obyekt mavjud emas."
+msgstr ""
+"%(model)s modeli uchun %(field)s %(value)r qiymatli obyekt mavjud emas."
 
 #: .\venv\Lib\site-packages\django\db\models\fields\related.py:921
 msgid "Foreign Key (type determined by related field)"
@@ -1630,12 +1709,18 @@ msgstr "Yuborilgan fayl bo‘sh."
 msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
 msgid_plural ""
 "Ensure this filename has at most %(max)d characters (it has %(length)d)."
-msgstr[0] "Fayl nomi maksimal %(max)d ta belgidan iborat bo‘lishi kerak (hozir %(length)d)."
-msgstr[1] "Fayl nomi maksimal %(max)d ta belgidan iborat bo‘lishi kerak (hozir %(length)d)."
+msgstr[0] ""
+"Fayl nomi maksimal %(max)d ta belgidan iborat bo‘lishi kerak (hozir "
+"%(length)d)."
+msgstr[1] ""
+"Fayl nomi maksimal %(max)d ta belgidan iborat bo‘lishi kerak (hozir "
+"%(length)d)."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:630
 msgid "Please either submit a file or check the clear checkbox, not both."
-msgstr "Iltimos, faqat fayl yuboring yoki tozalash katagiga belgi qo‘ying, ikkala bir vaqtning o‘zida emas."
+msgstr ""
+"Iltimos, faqat fayl yuboring yoki tozalash katagiga belgi qo‘ying, ikkala "
+"bir vaqtning o‘zida emas."
 
 #: .\venv\Lib\site-packages\django\forms\fields.py:694
 msgid ""
@@ -1684,7 +1769,10 @@ msgstr "(Yashirilgan maydon %(name)s) %(error)s"
 msgid ""
 "ManagementForm data is missing or has been tampered with. Missing fields: "
 "%(field_names)s. You may need to file a bug report if the issue persists."
-msgstr "ManagementForm ma'lumotlari yo‘q yoki buzilgan. Yo‘qolgan maydonlar: %(field_names)s. Muammo davom etsa xato haqida xabar yuborishingiz kerak bo‘lishi mumkin."
+msgstr ""
+"ManagementForm ma'lumotlari yo‘q yoki buzilgan. Yo‘qolgan maydonlar: "
+"%(field_names)s. Muammo davom etsa xato haqida xabar yuborishingiz kerak "
+"bo‘lishi mumkin."
 
 #: .\venv\Lib\site-packages\django\forms\formsets.py:67
 #, python-format
@@ -1717,14 +1805,18 @@ msgstr "%(field)s uchun takrorlangan ma’lumotlarni to‘g‘rilang."
 #: .\venv\Lib\site-packages\django\forms\models.py:891
 #, python-format
 msgid "Please correct the duplicate data for %(field)s, which must be unique."
-msgstr "%(field)s uchun takrorlangan ma’lumotlarni to‘g‘rilang, u noyob bo‘lishi kerak."
+msgstr ""
+"%(field)s uchun takrorlangan ma’lumotlarni to‘g‘rilang, u noyob bo‘lishi "
+"kerak."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:898
 #, python-format
 msgid ""
 "Please correct the duplicate data for %(field_name)s which must be unique "
 "for the %(lookup)s in %(date_field)s."
-msgstr "%(date_field)s da %(lookup)s uchun noyob bo‘lishi kerak bo‘lgan %(field_name)s dagi takrorlangan ma’lumotlarni to‘g‘rilang."
+msgstr ""
+"%(date_field)s da %(lookup)s uchun noyob bo‘lishi kerak bo‘lgan "
+"%(field_name)s dagi takrorlangan ma’lumotlarni to‘g‘rilang."
 
 #: .\venv\Lib\site-packages\django\forms\models.py:907
 msgid "Please correct the duplicate values below."
@@ -1748,7 +1840,9 @@ msgstr "“%(pk)s” haqiqiy qiymat emas."
 msgid ""
 "%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
 "may be ambiguous or it may not exist."
-msgstr "%(datetime)s vaqt mintaqasi %(current_timezone)s da tushunilmadi; u noaniq yoki mavjud emas bo‘lishi mumkin."
+msgstr ""
+"%(datetime)s vaqt mintaqasi %(current_timezone)s da tushunilmadi; u noaniq "
+"yoki mavjud emas bo‘lishi mumkin."
 
 #: .\venv\Lib\site-packages\django\forms\widgets.py:463
 msgid "Clear"
@@ -2185,10 +2279,11 @@ msgid ""
 "required for security reasons, to ensure that your browser is not being "
 "hijacked by third parties."
 msgstr ""
-"Ushbu xabarni ko‘rishingizning sababi shundaki, bu HTTPS sayt brauzeringizdan "
-"“Referer” sarlavhasini yuborishni talab qiladi, lekin hech narsa yuborilmadi. "
-"Ushbu sarlavha xavfsizlik sabablaridan kerak, brauzeringiz uchinchi tomonlar tomonidan "
-"egallab olinmasligini ta’minlash uchun."
+"Ushbu xabarni ko‘rishingizning sababi shundaki, bu HTTPS sayt "
+"brauzeringizdan “Referer” sarlavhasini yuborishni talab qiladi, lekin hech "
+"narsa yuborilmadi. Ushbu sarlavha xavfsizlik sabablaridan kerak, "
+"brauzeringiz uchinchi tomonlar tomonidan egallab olinmasligini ta’minlash "
+"uchun."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:122
 msgid ""
@@ -2196,9 +2291,9 @@ msgid ""
 "enable them, at least for this site, or for HTTPS connections, or for “same-"
 "origin” requests."
 msgstr ""
-"Agar brauzeringizni “Referer” sarlavhalarini o‘chirib qo‘yish uchun sozlagan bo‘lsangiz, "
-"iltimos, ularni kamida ushbu sayt uchun, yoki HTTPS ulanishlari, yoki “bir xil manba” "
-"so‘rovlar uchun qayta yoqing."
+"Agar brauzeringizni “Referer” sarlavhalarini o‘chirib qo‘yish uchun sozlagan "
+"bo‘lsangiz, iltimos, ularni kamida ushbu sayt uchun, yoki HTTPS ulanishlari, "
+"yoki “bir xil manba” so‘rovlar uchun qayta yoqing."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:127
 msgid ""
@@ -2208,10 +2303,12 @@ msgid ""
 "If you’re concerned about privacy, use alternatives like <a "
 "rel=\"noreferrer\" …> for links to third-party sites."
 msgstr ""
-"Agar siz <meta name=\"referrer\" content=\"no-referrer\"> tegi yoki “Referrer-Policy: no-referrer” "
-"sarlavhasini ishlatayotgan bo‘lsangiz, iltimos, ularni olib tashlang. CSRF himoyasi qat’iy "
-"referer tekshiruvi uchun “Referer” sarlavhasini talab qiladi. Maxfiylik haqida xavotirda bo‘lsangiz, "
-"uchinchi tomon saytlarga havolalar uchun <a rel=\"noreferrer\" …> kabi alternativalardan foydalaning."
+"Agar siz <meta name=\"referrer\" content=\"no-referrer\"> tegi yoki "
+"“Referrer-Policy: no-referrer” sarlavhasini ishlatayotgan bo‘lsangiz, "
+"iltimos, ularni olib tashlang. CSRF himoyasi qat’iy referer tekshiruvi uchun "
+"“Referer” sarlavhasini talab qiladi. Maxfiylik haqida xavotirda bo‘lsangiz, "
+"uchinchi tomon saytlarga havolalar uchun <a rel=\"noreferrer\" …> kabi "
+"alternativalardan foydalaning."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:136
 msgid ""
@@ -2219,17 +2316,19 @@ msgid ""
 "submitting forms. This cookie is required for security reasons, to ensure "
 "that your browser is not being hijacked by third parties."
 msgstr ""
-"Ushbu xabarni ko‘rishingizning sababi — ushbu sayt formalarni yuborishda CSRF cookie talab qiladi. "
-"Ushbu cookie xavfsizlik uchun kerak, brauzeringizning uchinchi tomonlar tomonidan egallanmasligini "
-"ta’minlash maqsadida."
+"Ushbu xabarni ko‘rishingizning sababi — ushbu sayt formalarni yuborishda "
+"CSRF cookie talab qiladi. Ushbu cookie xavfsizlik uchun kerak, "
+"brauzeringizning uchinchi tomonlar tomonidan egallanmasligini ta’minlash "
+"maqsadida."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:142
 msgid ""
 "If you have configured your browser to disable cookies, please re-enable "
 "them, at least for this site, or for “same-origin” requests."
 msgstr ""
-"Agar brauzeringizni cookie’larni o‘chirib qo‘yish uchun sozlagan bo‘lsangiz, iltimos, ularni "
-"kamida ushbu sayt yoki “bir xil manba” so‘rovlari uchun qayta yoqing."
+"Agar brauzeringizni cookie’larni o‘chirib qo‘yish uchun sozlagan bo‘lsangiz, "
+"iltimos, ularni kamida ushbu sayt yoki “bir xil manba” so‘rovlari uchun "
+"qayta yoqing."
 
 #: .\venv\Lib\site-packages\django\views\csrf.py:148
 msgid "More information is available with DEBUG=True."
@@ -2321,8 +2420,9 @@ msgid ""
 "View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
 "target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
 msgstr ""
-"Django %(version)s uchun <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
-"target=\"_blank\" rel=\"noopener\">chiqarilgan yangiliklar</a>ni ko‘ring"
+"Django %(version)s uchun <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/releases/\" target=\"_blank\" rel=\"noopener\">chiqarilgan "
+"yangiliklar</a>ni ko‘ring"
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:221
 #, python-format
@@ -2332,29 +2432,35 @@ msgid ""
 "rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
 "configured any URLs."
 msgstr ""
-"Ushbu sahifani ko‘rayapsiz, chunki sozlamalaringizda <a href=\"https://docs.djangoproject.com/en/"
-"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener\">DEBUG=True</a> "
-"faol va hech qanday URL sozlanmagan."
+"Ushbu sahifani ko‘rayapsiz, chunki sozlamalaringizda <a href=\"https://"
+"docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> faol va hech qanday URL "
+"sozlanmagan."
 
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:229
 msgid "Django Documentation"
 msgstr "Django hujjatlari"
 
-#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:230
 msgid "Topics, references, &amp; how-to’s"
 msgstr "Mavzular, manbalar va qo‘llanmalar"
 
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:238
 msgid "Tutorial: A Polling App"
 msgstr "Qo‘llanma: So‘rovnoma ilovasi"
 
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:239
 msgid "Get started with Django"
 msgstr "Djangoda boshlang‘ich"
 
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:247
 msgid "Django Community"
 msgstr "Django jamoasi"
 
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:248
 msgid "Connect, get help, or contribute"
 msgstr "Bog‘laning, yordam oling yoki hissa qo‘shing"
 
+#: .\venv\Lib\site-packages\shortuuid\django_fields.py:12
 msgid "A short UUID field."
 msgstr "Qisqa UUID maydoni."
