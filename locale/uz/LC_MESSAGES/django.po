@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-31 12:50+0500\n"
+"POT-Creation-Date: 2025-06-01 18:31+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -710,6 +710,17 @@ msgid "The time to submit answers is over!"
 msgstr "Javoblarni topshirish vaqti tugadi!"
 
 #: .\bot\routers\diagnostic_tests\actions.py:66
+#, fuzzy
+#| msgid ""
+#| "Enter your answers as in the following example:\n"
+#| "\n"
+#| "abdcad...\n"
+#| "45\n"
+#| "school\n"
+#| "23.4\n"
+#| "\n"
+#| "That is, first the closed test answers in one row, then the open test "
+#| "answers in separate rows!"
 msgid ""
 "Enter your answers as in the following example:\n"
 "\n"
@@ -718,7 +729,7 @@ msgid ""
 "school\n"
 "23.4\n"
 "\n"
-"That is, first the closed test answers in one row, then the open test "
+"That is, first the closed test answers in one row, then the closed test "
 "answers in separate rows!"
 msgstr ""
 "Javoblaringizni quyidagi misolga o‘xshab kiriting:\n"
@@ -823,7 +834,6 @@ msgstr ""
 "\n"
 "Obuna bo‘lgach, /start buyrug‘ini qayta yuboring."
 
-
 #: .\helpers\time_string.py:11
 msgid "hour"
 msgstr "soat"
@@ -848,15 +858,15 @@ msgstr "soniya"
 msgid "seconds"
 msgstr "soniyalar"
 
-#: .\main\settings.py:162
+#: .\main\settings.py:160
 msgid "Uzbek"
 msgstr "O‘zbekcha"
 
-#: .\main\settings.py:163
+#: .\main\settings.py:161
 msgid "English"
 msgstr "Inglizcha"
 
-#: .\main\settings.py:164
+#: .\main\settings.py:162
 msgid "Russian"
 msgstr "Ruscha"
 
