@@ -200,12 +200,12 @@ LOGGING = {
     },
     'root': {
         'handlers': ['console'],
-        'level': 'ERROR',
+        'level': 'DEBUG' if DEBUG else 'ERROR',
     },
     'loggers': {
         'django': {
             'handlers': ['console'],
-            'level': os.getenv('DJANGO_LOG_LEVEL', 'ERROR'),
+            'level': os.getenv('DJANGO_LOG_LEVEL', 'DEBUG' if DEBUG else 'ERROR'),
             'propagate': False,
         },
     },
