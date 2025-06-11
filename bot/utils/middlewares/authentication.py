@@ -20,7 +20,7 @@ class AuthenticationMiddleware(BaseMiddleware):
         if bot_user is None:
             return await handler(event, data)
 
-        user = await User.objects.aget_or_create(telegram_id=bot_user.id)
+        user, created = await User.objects.aget_or_create(telegram_id=bot_user.id)
         user.first_name = bot_user.first_name
         user.last_name = bot_user.last_name
         user.username = bot_user.username
