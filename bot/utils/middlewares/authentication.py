@@ -1,3 +1,6 @@
+import logging
+import traceback
+
 from aiogram import BaseMiddleware
 from aiogram.types import Update
 from typing import Callable, Dict, Awaitable, Any
@@ -17,15 +20,12 @@ class AuthenticationMiddleware(BaseMiddleware):
         if bot_user is None:
             return await handler(event, data)
 
-        try:
-            user = await User.objects.aget(telegram_id=bot_user.id)
-        except User.DoesNotExist:
-            user = None
-        else:
-            user.first_name = bot_user.first_name
-            user.last_name = bot_user.last_name
-            user.username = bot_user.username
-            await user.asave()
+        user = await User.objects.aget_or_create(telegram_id=bot_user.id)
+        user.first_name = bot_user.first_name
+        user.last_name = bot_user.last_name
+        user.username = bot_user.username
+        await user.asave()
+
         data['user'] = user
 
         is_subscribed, missing_channels = await is_user_subscribed(event.bot, bot_user.id)
