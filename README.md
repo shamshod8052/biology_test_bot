@@ -36,6 +36,7 @@ Biology Test Bot — o‘qituvchilar va o‘quv markazlari uchun mo‘ljallangan
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/dcfc3fd0-0bb7-4235-b9a9-9790df6eb1f8" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/c5e82e11-3e36-4a91-a769-4d2186dd10ac" />
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/3cca887f-867e-4d72-8dcc-ca9b95921ee5" />
+<img width="1044" height="931" alt="image" src="https://github.com/user-attachments/assets/26b2d2a0-1aed-4d8c-9d7e-ae564b60c924" />
 
 
 ## 📦 Tech Stack
