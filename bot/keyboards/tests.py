@@ -86,9 +86,12 @@ def edit_inline_kb(reply_markup: InlineKeyboardMarkup, question: Question, selec
     for rows in reply_markup.inline_keyboard:
         for button in rows:
             extra = ''
-            if selected_id != -1 and question.test.show_answer:
+            if selected_id != -1:
                 option_id = int(button.callback_data.split(':')[1])
-                extra = '✅ ' if option_id == correct_idx else '❌ ' if option_id == selected_id else ''
+                if not question.test.show_answer:
+                    extra = '🔹 ' if option_id == selected_id else ''
+                else:
+                    extra = '✅ ' if option_id == correct_idx else '❌ ' if option_id == selected_id else ''
             button.text = extra + button.text
 
     return reply_markup
