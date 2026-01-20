@@ -1,5 +1,6 @@
 from aiogram import Bot, Router, F
 from aiogram.types import CallbackQuery, PollAnswer
+from aiogram.exceptions import TelegramBadRequest
 
 from Test.models import Task
 from bot.functions.send_test import test_sender
@@ -39,10 +40,13 @@ async def check_for_poll(call: CallbackQuery, bot: Bot):
         return
     if not task.is_started:
         return
-    await call.message.edit_reply_markup(
-        inline_message_id=call.inline_message_id,
-        reply_markup=edit_inline_kb(call.message.reply_markup, task.last_quest.question, ans)
-    )
+    try:
+        await call.message.edit_reply_markup(
+            inline_message_id=call.inline_message_id,
+            reply_markup=edit_inline_kb(call.message.reply_markup, task.last_quest.question, ans)
+        )
+    except TelegramBadRequest:
+        ...
     task.add_points4gamer(user_id, full_name, username, ans)
     task.last_quest.set_answered()
 
